@@ -1,0 +1,140 @@
+{
+  "check": "ocr",
+  "recorded_at": "2026-10-20T01:58:53+0530",
+  "request": {
+    "method": "POST",
+    "url": "https://api.bodhan.ai/v1/chat/completions",
+    "body": {
+      "model": "indic-ocr",
+      "messages": [
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "image_url",
+              "image_url": {
+                "url": "<base64 of fixtures/inputs/sample_page.png>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "response": {
+    "status": 200,
+    "elapsed_s": 1.13,
+    "headers": {
+      "content-type": "application/json",
+      "x-ratelimit-api_key-limit-max_parallel_requests": "10",
+      "x-ratelimit-api_key-limit-requests": "120",
+      "x-ratelimit-api_key-remaining-max_parallel_requests": "9",
+      "x-ratelimit-api_key-remaining-requests": "119"
+    },
+    "body": {
+      "id": "indic-ocr-c343cfd686424789b385671d3319e2ae",
+      "created": 1792441733,
+      "model": "indic-ocr",
+      "object": "chat.completion",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "Project Idea: Translation Studio\n\nA PDF in, a structure-preserving translation out\n\nInput: Any PDF document\n\nOutput: Structure-preserving translation — headings, tables, footnotes intact\n\nReviewer: Prompt-edit a specific section — only that section re-renders\n\nBar: Reads naturally; structure indistinguishable from the original\n\nRecent Advances in Generative AI\n\n15",
+            "role": "assistant",
+            "provider_specific_fields": {
+              "refusal": null
+            }
+          },
+          "provider_specific_fields": {}
+        }
+      ],
+      "usage": {
+        "completion_tokens": 76,
+        "prompt_tokens": 1164,
+        "total_tokens": 1240
+      },
+      "blocks": [
+        {
+          "order": 0,
+          "label": "Header",
+          "type": "PageHeader",
+          "bbox_xyxy": [
+            25.7,
+            59.4,
+            915.0,
+            147.2
+          ],
+          "conf": 0.606,
+          "text": ""
+        },
+        {
+          "order": 1,
+          "label": "Section-title",
+          "type": "SectionHeader",
+          "bbox_xyxy": [
+            48.7,
+            76.2,
+            881.1,
+            139.5
+          ],
+          "conf": 0.806,
+          "text": "Project Idea: Translation Studio"
+        },
+        {
+          "order": 2,
+          "label": "List",
+          "type": "Text",
+          "bbox_xyxy": [
+            48.3,
+            184.1,
+            1403.0,
+            762.2
+          ],
+          "conf": 0.662,
+          "text": "A PDF in, a structure-preserving translation out\n\nInput: Any PDF document\n\nOutput: Structure-preserving translation — headings, tables, footnotes intact\n\nReviewer: Prompt-edit a specific section — only that section re-renders\n\nBar: Reads naturally; structure indistinguishable from the original"
+        },
+        {
+          "order": 3,
+          "label": "Folio",
+          "type": "PageNumber",
+          "bbox_xyxy": [
+            38.3,
+            784.0,
+            318.8,
+            813.0
+          ],
+          "conf": 0.638,
+          "text": "Recent Advances in Generative AI"
+        },
+        {
+          "order": 4,
+          "label": "Page-number",
+          "type": "PageNumber",
+          "bbox_xyxy": [
+            1380.9,
+            786.2,
+            1415.9,
+            809.3
+          ],
+          "conf": 0.601,
+          "text": "15"
+        },
+        {
+          "order": 5,
+          "label": "Footer",
+          "type": "PageFooter",
+          "bbox_xyxy": [
+            29.6,
+            779.0,
+            1431.2,
+            816.3
+          ],
+          "conf": 0.76,
+          "text": ""
+        }
+      ]
+    }
+  }
+}

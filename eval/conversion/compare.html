@@ -1,0 +1,38 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Ingest check</title>
+<!-- Original page (orig/, rendered from documents/) beside its flowing HTML. Serve from the repo root (launch.json "eval-compare"). -->
+<style>
+  body{margin:0;height:100vh;display:flex;flex-direction:column;font:14px system-ui}
+  header{display:flex;gap:8px;align-items:center;padding:6px 10px;background:#eee}
+  main{flex:1;display:flex}
+  #orig{flex:1;overflow:auto;background:#888} #orig img{width:100%;display:block}
+  iframe{flex:1;border:0;border-left:1px solid #ccc;background:#fff}
+</style>
+<header>
+  <button id="prev">←</button>
+  <select id="page"></select>
+  <button id="next">→</button>
+  <select id="side"><option>ours</option><option>docling</option></select>
+</header>
+<main><div id="orig"><img id="img"></div><iframe id="html"></iframe></main>
+<script>
+const docs = ["bn_wikipedia_taj-mahal", "en_book_darwin-origin-of-species-ch1", "en_brochure_nasa-msl-curiosity-factsheet",
+  "en_financial_federal-reserve-2023", "en_form_irs-1040-2025", "en_govreport_economic-report-president-2024-ch1",
+  "en_paper_llama-two-column", "en_paper_mamba-equations", "en_scanned_naca-report-1381-image-only",
+  "en_scanned_naca-report-1381", "en_slides_nist-pqc-road-ahead", "en_spec_rfc9562-uuid", "en_standard_nist-fips197-aes",
+  "en_wikipedia_monsoon", "hi_wikipedia_mahatma-gandhi", "hi_wikipedia_taj-mahal", "ta_wikipedia_taj-mahal"];
+const sel = document.getElementById("page"), side = document.getElementById("side");
+for (const d of docs) for (const n of [1, 2]) sel.add(new Option(`${d} p${n}`, `${d}-p${n}`));
+sel.value = location.hash.slice(1) || sel.options[0].value;
+function show() {
+  document.getElementById("img").src = `orig/${sel.value}.png`;
+  document.getElementById("html").src = `${side.value}/${sel.value}.html`;
+  location.hash = sel.value;
+}
+const step = d => { sel.selectedIndex = (sel.selectedIndex + d + sel.length) % sel.length; show(); };
+document.getElementById("prev").onclick = () => step(-1);
+document.getElementById("next").onclick = () => step(1);
+sel.onchange = side.onchange = show;
+show();
+</script>

@@ -1,0 +1,71 @@
+{
+  "check": "openrouter",
+  "recorded_at": "2026-10-20T02:00:52+0530",
+  "request": {
+    "method": "POST",
+    "url": "https://openrouter.ai/api/v1/chat/completions",
+    "body": {
+      "model": "google/gemini-2.5-flash-lite",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Reply with exactly: ok"
+        }
+      ],
+      "max_tokens": 10
+    }
+  },
+  "response": {
+    "status": 200,
+    "elapsed_s": 2.71,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "body": {
+      "id": "gen-1792441850-OXubPH76BNQWxC9BSF5E",
+      "object": "chat.completion",
+      "created": 1792441850,
+      "model": "google/gemini-2.5-flash-lite",
+      "provider": "Google",
+      "system_fingerprint": null,
+      "service_tier": "default",
+      "choices": [
+        {
+          "index": 0,
+          "logprobs": null,
+          "finish_reason": "stop",
+          "native_finish_reason": "STOP",
+          "message": {
+            "role": "assistant",
+            "content": "ok",
+            "refusal": null,
+            "reasoning": null
+          }
+        }
+      ],
+      "usage": {
+        "prompt_tokens": 5,
+        "completion_tokens": 1,
+        "total_tokens": 6,
+        "cost": 9e-07,
+        "is_byok": false,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "audio_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost_details": {
+          "upstream_inference_cost": 9e-07,
+          "upstream_inference_prompt_cost": 5e-07,
+          "upstream_inference_completions_cost": 4e-07
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0,
+          "image_tokens": 0,
+          "audio_tokens": 0
+        }
+      }
+    }
+  }
+}

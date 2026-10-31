@@ -1,0 +1,62 @@
+{
+  "bn_wikipedia_taj-mahal-p2": {
+    "reading_order": "B", "headings": "B", "lists": "na", "tables": "na", "figures": "B",
+    "inline_formatting": "B", "completeness": "A", "noise": "B", "overall": "B",
+    "issues_A": ["Headings 'প্রভাব' and 'বাগান' moved to the very end of the document, after all body text", "All three figures dumped at the top, before the opening English quote", "Stray extra red-dot image under the map", "Italic Bengali translation block rendered as plain text; links lost", "Some broken conjuncts: 'চতুর্থাংশ' shows a dotted-circle glyph, 'দক্ষি ণ', 'পশ্চি মে'"],
+    "issues_B": ["Pervasive broken word spacing in Bengali: 'অনু বাদঃ', 'মু ঘল', 'তা ঁর', 'পূ র্বসূ রি', 'চতু র্থাংশ', 'বৃ ক্ষশোভিত'", "Figures inserted mid-sentence, splitting the 'বাগান' paragraph after 'পানির'", "'বাংলা অনুবাদঃ' promoted to a heading (it is an italic label on the page)", "Italic translation block not italic; links lost in body text"]
+  },
+  "en_brochure_nasa-msl-curiosity-factsheet-p2": {
+    "reading_order": "A", "headings": "tie", "lists": "na", "tables": "na", "figures": "B",
+    "inline_formatting": "B", "completeness": "A", "noise": "B", "overall": "A",
+    "issues_A": ["Both images placed at the top, captions dumped at the very end, separated from their images", "Running footer 'Mars Science Laboratory/Curiosity 2 NASA Facts' left in the flow", "Line-end hyphens kept: 'examin- ing', 'ki- lometers', 'Measure- ments', 'Yel- lowknife', 'hab- itable'", "Paragraph split across columns: '...toward \"Yellowknife Bay\" to' / 'investigate an ancient river...'", "Captions lose their italics"],
+    "issues_B": ["Entire first column paragraph missing: 'lowed consideration of more than 30 Martian locations ... using this improved precision.'", "Captions placed above images (minor)"]
+  },
+  "en_financial_federal-reserve-2023-p1": {
+    "reading_order": "A", "headings": "tie", "lists": "na", "tables": "A", "figures": "na",
+    "inline_formatting": "tie", "completeness": "A", "noise": "A", "overall": "A",
+    "issues_A": ["Header row broken: '2022' in the title row and '2023' in the ASSETS row", "Every row label bold, not just section labels; sub-item indentation lost", "Multi-line labels split into extra rows (Treasury securities values on an empty-label row; 'Consolidated variable interest entities...' and 'Surplus...' split)", "Rows merged: 'Other liabilities 543 7,784,180 / 359 8,511,964' swallows Total liabilities values; 'Total liabilities Reserve Bank capital' merged label", "'$ 8,569,354' wraps oddly (minor)"],
+    "issues_B": ["No table at all: every cell is a separate paragraph (label, then each number on its own line), so columns and rows are lost", "Running header 'Financial Statements 3' left in the flow", "'(in millions)' unit dropped", "Row labels 'Loans:', 'Deposits:', 'System Open Market Account:' made into headings; closing note 'The accompanying notes are an integral part...' made a heading", "'$' signs detached into lines of their own ('11,037 $')"]
+  },
+  "en_paper_mamba-equations-p1": {
+    "reading_order": "tie", "headings": "B", "lists": "na", "tables": "na", "figures": "na",
+    "inline_formatting": "A", "completeness": "tie", "noise": "B", "overall": "B",
+    "issues_A": ["Authors and both affiliations rendered as headings", "'Abstract' not a heading", "arXiv side stamp 'arXiv:2312.00752v2 [cs.LG] 31 May 2024' left at the end as a large rotated image", "Affiliation superscripts lost ('1Machine Learning', '2Department')", "Italics ('selectively', 'sequence models'), bold 'Mamba' and citation links lost"],
+    "issues_B": ["Author superscripts flattened: 'Albert Gu * 1 and Tri Dao * 2'", "Stray '2' on its own line before 'Department of Computer Science'", "Italics, bold 'Mamba' and citation links lost"]
+  },
+  "en_scanned_naca-report-1381-p1": {
+    "reading_order": "A", "headings": "A", "lists": "B", "tables": "na", "figures": "na",
+    "inline_formatting": "tie", "completeness": "tie", "noise": "A", "overall": "A",
+    "issues_A": ["Many OCR errors: 'analys_s', 'D is found', 'tra3ectory', 'coe_eient', 'coey_cient', 'JuLIA_ ALLENand', 'o1 particular missile%', 'tieat- ing'", "Second half of Summary turned into fake bullet and nested-bullet lists", "'INTRODUCTION' rendered as a bullet item, not a heading; stray bullets ', . 4'", "Stray fragments 'rz', 'i\"', 'i .\" :', '.?' in the flow; title split into two headings", "Right column collapsed into one paragraph; hyphens kept ('con- siderable', 'how- ever')", "Summary italics lost"],
+    "issues_B": ["~27 lines of stray OCR fragments ('i', ':', ':_', '::', 'rz' ...) at the top", "Summary placed before the title; 'REPORT' and '1381' split into two headings", "Title truncated and garbled: 'ENTERING TE E E E SS' (loses 'THE EARTH'S ATMOSPHERE AT HIGH SUPERSONIC SPEEDS')", "Order scrambled: right column's first paragraph ('bined with the high surface shear...') appears before the second Summary paragraph", "Introduction runs straight into a right-column paragraph ('com- For missiles designed...'), text lost and garbled: 'as to et o valuable'; footnote dropped mid-text", "Summary italics lost"]
+  },
+  "en_slides_nist-pqc-road-ahead-p1": {
+    "reading_order": "A", "headings": "A", "lists": "na", "tables": "na", "figures": "A",
+    "inline_formatting": "A", "completeness": "A", "noise": "A", "overall": "A",
+    "issues_A": ["Speaker name and group rendered as a heading", "Italic 'The Road Ahead' not italic", "NIST logo includes a strip of slide background (minor)"],
+    "issues_B": ["Title and subtitle merged into one heading 'NIST PQC The Road Ahead'", "Author, group and date merged into one line; superscript lost: 'October 3 rd , 2023'", "Photo crop includes the overlapping date text from the slide, so the date appears again garbled inside the image", "Logo placed before the photo"]
+  },
+  "en_standard_nist-fips197-aes-p1": {
+    "reading_order": "B", "headings": "B", "lists": "na", "tables": "na", "figures": "A",
+    "inline_formatting": "A", "completeness": "A", "noise": "B", "overall": "A",
+    "issues_A": ["Heading '4.2 Multiplication in GF(2⁸)' lost, merged into paragraph with '� �'", "Equation (4.2) flattened into garbled text: '(x + x + x + x + 1)+(x + x + 1) = x + x + x + x 6 4 2 7 7 6 4 2 (polynomial)...'", "Stray exponent digits '7 6 5 4 3 2' and '8 4 3' on separate lines above equations 4.1 and 4.3", "Equation numbers detached: '(4.1)' after the 4.1 heading, '(4.3)' after the next paragraph", "First two paragraphs merged; 'fi' ligatures dropped ('specifed', 'fnite feld', 'coeffcients')", "Scrambled sentence: 'same fnite feld element as x 4 − x2, −x 4 + x 2'"],
+    "issues_B": ["All three displayed equations (4.1, 4.2, 4.3) missing, replaced by 'Formula not decoded' placeholders", "Superscripts lost everywhere: 'GF(2 8 )', 'x 6 + x 5 + x + 1', 'GF 2 8'", "Garbled sentence: 'x 4 + x 2 represents the 4 - x 2 4 + x 4 - x 2 same fnite feld element as x , -x 2 , and -x'", "Stray '� □' before 'The symbol'", "'fi' ligatures dropped ('specifed', 'fnite feld')"]
+  },
+  "en_standard_nist-fips197-aes-p2": {
+    "reading_order": "B", "headings": "tie", "lists": "na", "tables": "B", "figures": "A",
+    "inline_formatting": "A", "completeness": "B", "noise": "B", "overall": "B",
+    "issues_A": ["S-box table destroyed: header row flattened to 'y 0 1 2 3 4 5 6 7 8 9 a b c d e f', then ~250 hex values each on its own line, column by column, with row labels lost and values missing (e.g. row 0 '63 7c 77...' not seen in order)", "Caption not bold; 'SBOX' small caps lost", "Equation 5.5 split into image plus separate 'for 0 ≤ r < 4 and 0 ≤ c < 4.' line, stray 'r,c' fragment and detached '(5.5)'", "'s′r,c' rendered as 's⁰ = {ed}. r,c'"],
+    "issues_B": ["Equation (5.5) missing, replaced by 'Formula not decoded'", "Row labels '7' and '8' merged into one cell ('7 8') with the 'x' axis label taking row 7's place", "First data column wrongly bolded", "'s′r,c' rendered as 's0 = {ed}. r,c'"]
+  },
+  "ta_wikipedia_taj-mahal-p1": {
+    "reading_order": "B", "headings": "B", "lists": "na", "tables": "A", "figures": "B",
+    "inline_formatting": "B", "completeness": "A", "noise": "B", "overall": "A",
+    "issues_A": ["Infobox placed before the article title; title heading appears only after the infobox and images", "Heading 'தோற்றம்' moved after all body paragraphs", "Wikipedia logo and tagline dropped between the Shah Jahan image and its caption", "Infobox rows flattened, some merged: 'கட்டிடக்கலைஞர் உஸ்தாத் அகமது லகோரி கட்டிட முறை முகலாயக் கட்டிடக்கலை'", "Stray red-dot image after the map; links and italic '(Taj Mahal)' lost"],
+    "issues_B": ["Main 'தோற்றம்' paragraph and end of the second paragraph rendered as tofu boxes (unreadable text)", "Infobox flattened with labels separated from values and misordered ('அமைவிடம்', 'ஏற்றம்', then their values); 'முகலாயக் கட்டிடக்கலை' partly tofu", "Label 'பார்வையாளர்களின் எண்ணிக்கை' missing before '3 மில்லியன்'", "Infobox title 'தாஜ் மகால்' made into a second heading identical to the page title", "Italic '(Taj Mahal)' and bold lead lost"]
+  },
+  "ta_wikipedia_taj-mahal-p2": {
+    "reading_order": "B", "headings": "B", "lists": "na", "tables": "na", "figures": "B",
+    "inline_formatting": "tie", "completeness": "A", "noise": "tie", "overall": "B",
+    "issues_A": ["Headings 'கட்டிடக்கலை' and 'சமாதி' moved to the very end, after all body text", "Both figures dumped at the top before any text", "Links lost", "Carry-over caption 'மேற்கு உத்தரப் பிரதேசத்தில் அமைவிடம்' dropped"],
+    "issues_B": ["H2 heading 'கட்டிடக்கலை' missing", "Humayun's tomb figure inserted mid-sentence, splitting the paragraph after 'இச் சிறிய'", "Links lost", "Carry-over caption 'மேற்கு உத்தரப் பிரதேசத்தில் அமைவிடம்' dropped"]
+  }
+}

@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data: documents, API cache, usage ledger
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Local development notes and tooling (kept on disk, not published)
+HANDOFFS/
+CLAUDE.md
+.claude/
+.open-design/
+.ruff_cache/
+docs/reference/*
+!docs/reference/Structure-Flow.md
+!docs/reference/Bodhan-Issues-2026-10-31.md

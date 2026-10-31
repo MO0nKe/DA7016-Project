@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint src",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@fontsource-variable/anek-bangla": "^5.3.0",
+    "@fontsource-variable/anek-devanagari": "^5.3.0",
+    "@fontsource-variable/anek-gujarati": "^5.3.0",
+    "@fontsource-variable/anek-gurmukhi": "^5.3.0",
+    "@fontsource-variable/anek-kannada": "^5.3.0",
+    "@fontsource-variable/anek-latin": "^5.3.0",
+    "@fontsource-variable/anek-malayalam": "^5.3.0",
+    "@fontsource-variable/anek-odia": "^5.3.0",
+    "@fontsource-variable/anek-tamil": "^5.3.0",
+    "@fontsource-variable/anek-telugu": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.1",
+    "pdfjs-dist": "^6.4.299",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.4"
+  }
+}

@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+/* Panna, editorial: a printed page's restraint. Paper and ink, hairline rules instead of boxes and shadows, square
+   corners, a serif for headings (Source Serif 4, bundled), small mono capitals for labels (.kicker), and one terracotta accent for focus,
+   selection, progress and the mark. The PDF pages are white on the paper, set off by a hairline. Anek (Ek Type) in
+   every script; the serif falls back to it for Indian scripts. Light only. */
+@theme {
+  --font-sans: "Anek Latin Variable", "Anek Devanagari Variable", "Anek Bangla Variable", "Anek Tamil Variable",
+    "Anek Telugu Variable", "Anek Kannada Variable", "Anek Malayalam Variable", "Anek Gujarati Variable",
+    "Anek Gurmukhi Variable", "Anek Odia Variable", system-ui, sans-serif;
+  --font-serif: "Source Serif 4 Variable", "Anek Devanagari Variable", "Anek Bangla Variable",
+    "Anek Tamil Variable", "Anek Telugu Variable", "Anek Kannada Variable", "Anek Malayalam Variable",
+    "Anek Gujarati Variable", "Anek Gurmukhi Variable", "Anek Odia Variable", serif;
+  --color-ground: oklch(98% 0.004 95);    /* paper: the desk behind the pages */
+  --color-surface: oklch(98% 0.004 95);   /* the same paper: panes and bars, set apart by rules */
+  --color-well: oklch(95.5% 0.006 95);    /* tracks, hovered and alternate rows */
+  --color-line: oklch(90% 0.006 95);      /* hairline rules */
+  --color-bark: oklch(98% 0.004 95);      /* menus, dropdowns, dialogs, toasts, the prompt box: the same paper, lifted by a hairline */
+  --color-ink: oklch(20% 0.018 70);       /* primary text, the shown tab's rule, the primary button */
+  --color-muted: oklch(48% 0.012 70);     /* secondary text, ≥ 4.5:1 on paper */
+  --color-faint: oklch(66% 0.01 70);      /* placeholders, disabled */
+  --color-accent: oklch(52% 0.10 28);     /* terracotta */
+  --color-accent-strong: oklch(45% 0.10 28);
+  --color-wash: oklch(95% 0.02 28);       /* accent wash: selected rows */
+  --color-paper: #ffffff;                 /* PDF pages */
+  --radius-xs: 1px; --radius-sm: 2px; --radius-md: 2px; --radius-lg: 3px; --radius-xl: 3px; --radius-2xl: 4px;
+  --shadow-raised-sm: 0 0 #0000;
+  --shadow-raised: 0 0 #0000;
+  --shadow-raised-lg: 0 6px 20px rgb(40 30 20 / 0.08), 0 0 0 1px var(--color-line);
+  --shadow-inset: 0 0 #0000;
+  --shadow-page: 0 0 0 1px var(--color-line);
+}
+
+body { @apply bg-ground text-ink antialiased text-sm; }
+/* A label: small mono capitals, for metadata and sidebar tabs only. A utility, so components can @apply it. */
+@utility kicker { @apply font-mono text-[10.5px] leading-none uppercase tracking-[0.1em] text-muted; }
+/* The focus ring is always visible for keyboard users. Fields draw their own ring instead. */
+:focus-visible:not(.field) { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+
+/* Component classes sit in the components layer, so a utility on the same element (w-auto, h-7…) wins. */
+@layer components {
+.card { @apply bg-surface rounded-lg border border-line; }
+.popover { @apply bg-bark rounded-lg border border-line shadow-raised-lg; }
+
+.btn {
+  @apply inline-flex items-center justify-center gap-1.5 h-8 px-3 rounded-md whitespace-nowrap
+         text-sm font-medium text-ink bg-surface border border-line transition-colors select-none;
+}
+.btn:hover { @apply bg-well; }
+.btn:active, .btn[aria-pressed="true"] { @apply bg-black/[0.06]; }
+.btn:disabled { @apply text-faint bg-surface cursor-not-allowed; }
+.btn-primary { @apply bg-ink text-white border-ink; }
+.btn-primary:hover { @apply bg-ink/85; }
+.btn-primary:active { @apply bg-ink/85; }
+.btn-primary:disabled { @apply bg-ink/30 border-transparent text-white/80; }
+.btn-ghost { @apply bg-transparent border-transparent; }
+.btn-ghost:hover { @apply bg-black/[0.05]; }
+.btn-sm { @apply h-7 px-2.5 text-xs; }
+.btn-icon { @apply w-8 px-0; }
+.btn-sm.btn-icon { @apply w-7; }
+
+.field {
+  @apply w-full h-8 px-2.5 rounded-md bg-surface text-ink text-sm border border-line placeholder:text-faint outline-none;
+}
+.field:focus { @apply border-accent ring-2 ring-accent/20; }
+textarea.field { @apply h-auto py-2 rounded-lg; }
+
+/* Segmented control: a grey track, the chosen option white. */
+.seg { @apply inline-flex p-0.5 gap-0.5 rounded-md bg-well border border-line; }
+.seg > button { @apply h-7 px-3 rounded-[5px] text-sm text-muted transition-colors; }
+.seg > button[aria-pressed="true"] { @apply bg-surface text-ink font-medium shadow-[0_1px_2px_rgb(0_0_0/0.08)]; }
+.seg > button:disabled { @apply text-faint opacity-60 cursor-not-allowed; }
+
+.chip { @apply inline-flex items-center gap-1 h-6 px-2 rounded-md text-xs bg-well text-ink border border-line; }
+
+.toggle { @apply relative inline-flex h-5 w-9 shrink-0 rounded-full bg-black/[0.15] transition-colors; }
+.toggle::after { content: ""; @apply absolute top-0.5 left-0.5 size-4 rounded-full bg-white shadow-[0_1px_2px_rgb(0_0_0/0.2)] transition-transform; }
+.toggle[aria-checked="true"] { @apply bg-accent; }
+.toggle[aria-checked="true"]::after { @apply translate-x-4; }
+
+.toast { @apply fixed bottom-5 right-5 z-50 bg-bark rounded-lg border border-line shadow-raised-lg px-4 py-2.5 text-sm flex items-center gap-3; }
+
+.tab-row { @apply flex justify-between px-5 pt-5 pb-3.5 border-b border-line; }
+.tab-row > button { @apply kicker tracking-[0.06em] pb-1.5 border-b border-transparent hover:text-ink; }
+.tab-row > button[aria-pressed="true"] { @apply text-ink border-ink; }
+
+/* View tabs are words; the shown one is underlined in ink with a faint wash rising from the rule, and a running
+   translation's tab turns the accent with a band of it sweeping across, and fills a track under it in the accent
+   (.hang-progress; the percentage is in its tooltip). */
+.views { @apply relative inline-flex items-stretch gap-2 h-9; }
+.views > button { @apply relative inline-flex items-center gap-1 px-2 text-[15px] text-muted transition-colors hover:text-ink; }
+.views > button[aria-selected="true"] {
+  @apply text-ink;
+  background: linear-gradient(to top, color-mix(in oklch, var(--color-ink) 7%, transparent), transparent 85%);
+}
+.views .hang { @apply absolute left-0 bottom-0 h-[2px] w-full; }
+.views > button[aria-selected="true"] > .hang:first-child { @apply bg-ink; }
+.views > button[data-running] { @apply text-accent; }
+.views > button[data-running] > .hang { @apply h-[3px]; }
+.views > button[data-running] > .hang:first-child { @apply bg-line; }
+.views .hang-progress { @apply bg-accent transition-[width] duration-500; }
+.views > button[data-running]::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(100deg, transparent 30%, color-mix(in oklch, var(--color-accent) 35%, transparent) 50%, transparent 70%)
+    0 0 / 200% 100% no-repeat;
+  animation: ds-working 1.4s linear infinite;
+}
+/* A document in the library's card view: its first page, set off by a hairline. */
+.doc-card { @apply bg-surface rounded-md border border-line overflow-hidden shadow-page transition-shadow hover:shadow-raised-lg; }
+.doc-card[aria-selected="true"] { @apply outline-2 outline-offset-2 outline-accent; }
+
+/* A language as the first letter of its own name in its script (lib/scripts.ts). */
+.script { @apply inline-grid place-items-center min-w-6 h-6 px-1 shrink-0 rounded-md bg-well text-ink text-[13px] leading-none; }
+tr[aria-selected="true"] .script { @apply bg-surface; }
+
+.list-row { @apply w-full text-left rounded-md px-2 py-1 text-sm text-ink hover:bg-black/[0.04]; }
+.list-row[aria-current="true"] { @apply bg-accent/10 text-accent-strong font-medium; }
+}
+
+/* Interaction outlines on rendered pages (kept out of render.css so they never reach the export). */
+.studio-page [data-block-id] { cursor: pointer; }
+/* Section boxes only while Shift is held (picking); otherwise just the clicked or picked section. */
+.studio-page.shift-held [data-block-id] { outline: 1px dashed color-mix(in oklch, var(--color-accent) 60%, transparent); outline-offset: 1px; }
+.studio-page.shift-held [data-block-id]:hover { outline: 1.5px solid color-mix(in oklch, var(--color-accent) 80%, transparent); }
+.studio-page [data-block-id].ds-selected { outline: 2px solid var(--color-accent); outline-offset: 1px; background-color: color-mix(in oklch, var(--color-accent) 8%, transparent); }
+.studio-page [data-block-id].ds-picked { outline: 2px dashed var(--color-accent); outline-offset: 1px; background-color: color-mix(in oklch, var(--color-accent) 6%, transparent); }
+
+/* A prompt edit under way: its sections keep an accent outline with a band of the accent sweeping across them until
+   each lands (the send button pulses in the accent meanwhile). */
+@keyframes ds-working { from { background-position: 150% 0; } to { background-position: -50% 0; } }
+.studio-page [data-block-id].ds-working { outline: 2px solid var(--color-accent); outline-offset: 1px; cursor: progress; }
+/* A layer over the section, since a drawn section paints its own background inline. */
+.studio-page [data-block-id].ds-working::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: color-mix(in oklch, var(--color-accent) 8%, transparent)
+    linear-gradient(100deg, transparent 30%, color-mix(in oklch, var(--color-accent) 40%, transparent) 50%, transparent 70%)
+    0 0 / 200% 100% no-repeat;
+  animation: ds-working 1.4s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .studio-page [data-block-id].ds-working::after { animation: none; background-image: none; }
+  .views > button[data-running]::after { animation: none; background: none; }
+}
+
+/* Peek (hold Alt): a language view's translated sections fade out and the original page image shows through. */
+.studio-page [data-status="translated"] { transition: opacity 150ms ease-out; }
+.peek .studio-page [data-status="translated"] { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .studio-page [data-status="translated"] { transition: none; } }
+
+/* Text that still overflows after fitting (fit.js sets data-overflow): a hint to shorten it with an edit. */
+.studio-page [data-overflow] { outline: 1px dashed rgb(217 119 6 / 0.7); outline-offset: 1px; }

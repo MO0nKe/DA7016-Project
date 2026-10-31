@@ -1,0 +1,1200 @@
+{
+ "agreed": {
+  "bn_wikipedia_taj-mahal-p1": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "docling",
+   "figures": "split",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "docling"
+  },
+  "bn_wikipedia_taj-mahal-p2": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "na",
+   "figures": "docling",
+   "inline_formatting": "split",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_book_darwin-origin-of-species-ch1-p1": {
+   "reading_order": "tie",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "na",
+   "figures": "na",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "ours"
+  },
+  "en_book_darwin-origin-of-species-ch1-p2": {
+   "reading_order": "ours",
+   "headings": "na",
+   "lists": "na",
+   "tables": "na",
+   "figures": "na",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_brochure_nasa-msl-curiosity-factsheet-p1": {
+   "reading_order": "docling",
+   "headings": "tie",
+   "lists": "na",
+   "tables": "na",
+   "figures": "docling",
+   "inline_formatting": "docling",
+   "completeness": "docling",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_brochure_nasa-msl-curiosity-factsheet-p2": {
+   "reading_order": "split",
+   "headings": "tie",
+   "lists": "na",
+   "tables": "na",
+   "figures": "docling",
+   "inline_formatting": "docling",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_financial_federal-reserve-2023-p1": {
+   "reading_order": "docling",
+   "headings": "split",
+   "lists": "na",
+   "tables": "docling",
+   "figures": "na",
+   "inline_formatting": "split",
+   "completeness": "docling",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_financial_federal-reserve-2023-p2": {
+   "reading_order": "docling",
+   "headings": "split",
+   "lists": "na",
+   "tables": "docling",
+   "figures": "na",
+   "inline_formatting": "tie",
+   "completeness": "docling",
+   "noise": "split",
+   "overall": "docling"
+  },
+  "en_form_irs-1040-2025-p1": {
+   "reading_order": "ours",
+   "headings": "ours",
+   "lists": "tie",
+   "tables": "tie",
+   "figures": "na",
+   "inline_formatting": "tie",
+   "completeness": "docling",
+   "noise": "tie",
+   "overall": "docling"
+  },
+  "en_form_irs-1040-2025-p2": {
+   "reading_order": "docling",
+   "headings": "split",
+   "lists": "split",
+   "tables": "split",
+   "figures": "na",
+   "inline_formatting": "split",
+   "completeness": "split",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_govreport_economic-report-president-2024-ch1-p1": {
+   "reading_order": "tie",
+   "headings": "split",
+   "lists": "na",
+   "tables": "na",
+   "figures": "tie",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_govreport_economic-report-president-2024-ch1-p2": {
+   "reading_order": "docling",
+   "headings": "na",
+   "lists": "na",
+   "tables": "na",
+   "figures": "docling",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_paper_llama-two-column-p1": {
+   "reading_order": "ours",
+   "headings": "ours",
+   "lists": "na",
+   "tables": "na",
+   "figures": "na",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_paper_llama-two-column-p2": {
+   "reading_order": "split",
+   "headings": "tie",
+   "lists": "na",
+   "tables": "tie",
+   "figures": "docling",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_paper_mamba-equations-p1": {
+   "reading_order": "tie",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "na",
+   "figures": "na",
+   "inline_formatting": "ours",
+   "completeness": "tie",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_paper_mamba-equations-p2": {
+   "reading_order": "split",
+   "headings": "tie",
+   "lists": "na",
+   "tables": "na",
+   "figures": "ours",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_scanned_naca-report-1381-image-only-p1": {
+   "reading_order": "ours",
+   "headings": "ours",
+   "lists": "na",
+   "tables": "na",
+   "figures": "na",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "ours"
+  },
+  "en_scanned_naca-report-1381-image-only-p2": {
+   "reading_order": "ours",
+   "headings": "tie",
+   "lists": "docling",
+   "tables": "na",
+   "figures": "ours",
+   "inline_formatting": "docling",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_scanned_naca-report-1381-p1": {
+   "reading_order": "ours",
+   "headings": "split",
+   "lists": "docling",
+   "tables": "na",
+   "figures": "na",
+   "inline_formatting": "tie",
+   "completeness": "tie",
+   "noise": "ours",
+   "overall": "ours"
+  },
+  "en_scanned_naca-report-1381-p2": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "docling",
+   "tables": "na",
+   "figures": "docling",
+   "inline_formatting": "docling",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "tie"
+  },
+  "en_slides_nist-pqc-road-ahead-p1": {
+   "reading_order": "split",
+   "headings": "ours",
+   "lists": "na",
+   "tables": "na",
+   "figures": "ours",
+   "inline_formatting": "split",
+   "completeness": "ours",
+   "noise": "ours",
+   "overall": "ours"
+  },
+  "en_slides_nist-pqc-road-ahead-p2": {
+   "reading_order": "tie",
+   "headings": "tie",
+   "lists": "ours",
+   "tables": "na",
+   "figures": "tie",
+   "inline_formatting": "tie",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "ours"
+  },
+  "en_spec_rfc9562-uuid-p1": {
+   "reading_order": "docling",
+   "headings": "tie",
+   "lists": "na",
+   "tables": "docling",
+   "figures": "na",
+   "inline_formatting": "tie",
+   "completeness": "split",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_spec_rfc9562-uuid-p2": {
+   "reading_order": "docling",
+   "headings": "tie",
+   "lists": "na",
+   "tables": "split",
+   "figures": "docling",
+   "inline_formatting": "tie",
+   "completeness": "docling",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_standard_nist-fips197-aes-p1": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "na",
+   "figures": "ours",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "en_standard_nist-fips197-aes-p2": {
+   "reading_order": "docling",
+   "headings": "tie",
+   "lists": "na",
+   "tables": "docling",
+   "figures": "ours",
+   "inline_formatting": "split",
+   "completeness": "docling",
+   "noise": "docling",
+   "overall": "docling"
+  },
+  "en_wikipedia_monsoon-p1": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "na",
+   "figures": "tie",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "ours",
+   "overall": "tie"
+  },
+  "en_wikipedia_monsoon-p2": {
+   "reading_order": "ours",
+   "headings": "na",
+   "lists": "na",
+   "tables": "na",
+   "figures": "na",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "tie",
+   "overall": "ours"
+  },
+  "hi_wikipedia_mahatma-gandhi-p1": {
+   "reading_order": "tie",
+   "headings": "ours",
+   "lists": "na",
+   "tables": "ours",
+   "figures": "tie",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "ours"
+  },
+  "hi_wikipedia_mahatma-gandhi-p2": {
+   "reading_order": "split",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "docling",
+   "figures": "tie",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "tie",
+   "overall": "ours"
+  },
+  "hi_wikipedia_taj-mahal-p1": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "docling",
+   "figures": "tie",
+   "inline_formatting": "split",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "ours"
+  },
+  "hi_wikipedia_taj-mahal-p2": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "ours",
+   "tables": "docling",
+   "figures": "docling",
+   "inline_formatting": "ours",
+   "completeness": "ours",
+   "noise": "split",
+   "overall": "ours"
+  },
+  "ta_wikipedia_taj-mahal-p1": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "ours",
+   "figures": "docling",
+   "inline_formatting": "split",
+   "completeness": "ours",
+   "noise": "docling",
+   "overall": "ours"
+  },
+  "ta_wikipedia_taj-mahal-p2": {
+   "reading_order": "docling",
+   "headings": "docling",
+   "lists": "na",
+   "tables": "na",
+   "figures": "docling",
+   "inline_formatting": "tie",
+   "completeness": "split",
+   "noise": "tie",
+   "overall": "docling"
+  }
+ },
+ "issues": {
+  "bn_wikipedia_taj-mahal-p1": {
+   "ours": [
+    "Infobox table garbled: rows merged and shifted ('অবস্থান স্থানাঙ্ক | আগ্রা, ভারত ২৭°১০'৩০\" উত্তর', 'উচ্চতা ... নির্মিত স্থপতি | ৭৮°০২'৩১\" পূর্ব ১৭১ মি ... উস্তাদ আহমেদ লাহৌরি'), UNESCO header split into 'ইউনেস্ | স্কো | বিশ্ব ঐতিহ্যবাহী স্থান সাংস্কৃতিক'",
+    "Infobox placed before the Wikipedia logo and article title",
+    "Section heading 'ভূমিকা' moved to after the Bernier quote instead of before 'তাজমহল বিশ্বের অপূর্ব...'",
+    "Some broken Bengali: 'দক্ষি ণভাগ', 'উদ্দে শ্যে', 'সম্মি লন', 'ফ্রান্সি স'",
+    "Flag image stranded at the very end after the heading; italics and links lost; quote not a blockquote",
+    "Section heading 'ভূমিকা' placed at the very end, after the Bernier quote, instead of before 'তাজমহল বিশ্বের অপূর্ব সুন্দর...'",
+    "Infobox table garbled: rows merged into wrong cells, e.g. 'অবস্থান স্থানাঙ্ক' | 'আগ্রা, ভারত ২৭°১০′৩০″ উত্তর', 'উচ্চতা ... নির্মিত স্থপতি' in one cell, 'ইউনেস্ | স্কো | বিশ্ব ঐতিহ্যবাহী স্থান সাংস্কৃতিক'",
+    "UNESCO sub-header lost as a header row",
+    "India flag image dropped at the end after the heading",
+    "Infobox and Wikipedia logo placed before the article title",
+    "Some broken Bengali spacing: 'দক্ষি ণভাগ', 'সম্মি লন', 'উদ্দে শ্যে', 'ফ্রান্সি স'",
+    "Links and italics (e.g. 'তাজ', 'Agra') lost; quote not set off as a blockquote"
+   ],
+   "docling": [
+    "First sentence scrambled by the RTL Urdu run: 'প্রদেশে উত্তর ভারতের )محل تاج তাজমহল (হিন্দি...' instead of 'তাজমহল (হিন্দি: ... ) ভারতের উত্তর প্রদেশে'",
+    "Pervasive broken Bengali conjunct and vowel-sign spacing: 'মু ঘল', 'অপূ র্ব', 'মু মতাজ', 'সু ন্দর', 'সমৃ দ্ধশালী', 'পা ঁচ', 'গোম্বুজাকৃ তি'",
+    "Infobox coordinates lose a space/split ('৭৮°০২'৩১\" পূ র্ব')",
+    "Italics lost ('তাজ', 'Agra', 'Jehan-guyre' in quote); quote not set as a blockquote; links not kept",
+    "Flag image floats alone between infobox tables, not next to 'রাষ্ট্র ভারত'",
+    "First sentence scrambled by bidi: 'প্রদেশে উত্তর ভারতের )تاج محل তাজমহল (হিন্দি: ...' text order wrong",
+    "Widespread broken Bengali joins with spurious spaces: 'মু ঘল', 'আরজু মান্দ', 'অপূ র্ব', 'সু ন্দর', 'মৃ ত্যুতে', 'পা ঁচ', 'স্থানাঙ্ক... পূ র্ব'",
+    "Infobox title 'তাজমহল' repeated as a heading after the body (acceptable) but caption italicised above image",
+    "Links and italics lost; quote not set off as a blockquote"
+   ]
+  },
+  "bn_wikipedia_taj-mahal-p2": {
+   "ours": [
+    "Headings 'প্রভাব' and 'বাগান' moved to the very end of the document, after all body text",
+    "All three figures dumped at the top, before the opening English quote",
+    "Stray extra red-dot image under the map",
+    "Italic Bengali translation block rendered as plain text; links lost",
+    "Some broken conjuncts: 'চতুর্থাংশ' shows a dotted-circle glyph, 'দক্ষি ণ', 'পশ্চি মে'",
+    "Headings 'প্রভাব' and 'বাগান' dumped at the very end instead of before their sections",
+    "All three figures placed at the top, before the opening text",
+    "Duplicated stray red map dot image under the map",
+    "Some broken conjuncts: 'সাম্রাজ্ যের', 'চতুর্থাং◌শ', 'দক্ষি ণ', 'পশ্চি মে'",
+    "Italics on the translation quote lost"
+   ],
+   "docling": [
+    "Pervasive broken word spacing in Bengali: 'অনু বাদঃ', 'মু ঘল', 'তা ঁর', 'পূ র্বসূ রি', 'চতু র্থাংশ', 'বৃ ক্ষশোভিত'",
+    "Figures inserted mid-sentence, splitting the 'বাগান' paragraph after 'পানির'",
+    "'বাংলা অনুবাদঃ' promoted to a heading (it is an italic label on the page)",
+    "Italic translation block not italic; links lost in body text",
+    "Bengali words split by stray spaces throughout: 'অনু বাদঃ', 'মু ঘল', 'তা ঁর', 'পূ র্ব', 'চতু র্থাংশ'",
+    "Three figures inserted mid-sentence, splitting the Bagan paragraph after 'পানির'",
+    "Italic label 'বাংলা অনুবাদঃ' promoted to a heading",
+    "Italic translation quote and 'শিশু তাজ' lost italics",
+    "Footnote superscripts flattened with spaces: 'grave [৫] .'"
+   ]
+  },
+  "en_book_darwin-origin-of-species-ch1-p1": {
+   "ours": [
+    "Running header kept in flow: '6 VARIATION UNDER DOMESTICATION.'",
+    "'VARIATION UNDER DOMESTICATION.' and 'CAUSES OF VARIABILITY.' are plain paragraphs, not headings",
+    "Line-break hyphens left in: 'Domes- tic', 'gen- erally', 'con- ditions', 'gener- ations', 'ceas- ing'",
+    "Running header kept in flow: '6 VARIATION UNDER DOMESTICATION.'",
+    "'VARIATION UNDER DOMESTICATION.' and 'CAUSES OF VARIABILITY.' rendered as plain paragraphs, not headings",
+    "Line-end hyphens left in text: 'gen- erally', 'Domes- tic', 'con- ditions', 'gener- ations', 'ceas- ing'"
+   ],
+   "docling": [
+    "Large block of text that is not on the page appended after 'still capable of rapid improve-' ('As far as I am able to judge ... chemical change in the nature of the sap'), including content from later pages",
+    "OCR garbage mid-sentence: 'during several generati nt can n ent tn nt cnt cnr variation' (original: 'several generations to new conditions to cause any great amount of variation')",
+    "Typos: 'somē probability', 'Character of_Domes-tic', 'SpeciesOrigin' (missing dash), 'regard te the'",
+    "Stray page number '6' in flow; running head dropped (fine)",
+    "Small caps 'WHEN' rendered as 'WHEN' all caps (minor)",
+    "Large block of text not on this page appended after 'our oldest' ('domesticated animals are still capable of rapid improve- As far as I am able to judge...' through '...nature of the sap.')",
+    "Garbled text: 'during several generati nt can n ent tn nt cnt cnr variation' replaces 'generations to new conditions to cause any great amount of variation'",
+    "Other errors: 'SpeciesOrigin' (lost dash), 'Character of_Domes-tic', 'somē probability', 'regard te the extent'",
+    "Stray page number '6' left at top"
+   ]
+  },
+  "en_book_darwin-origin-of-species-ch1-p2": {
+   "ours": [
+    "Running header kept in the flow, with a wrong page number: 'VARIATION UNDER DOMESTICATION. 4' (page shows 7)",
+    "Paragraph breaks lost: the 'As far as I am able to judge' and 'Indefinite variability' paragraphs are merged into one block",
+    "Hyphenation artifacts left in: 'improve- ment', 'condi- tions', 'prob- ably', 'end- less'",
+    "OCR errors: 'regard te the extent', 'climate, ete.', 'the case os plants', stray quote in '“‘ Variation'",
+    "Running header kept in flow as 'VARIATION UNDER DOMESTICATION. 4' (and the page number is wrong: page shows 7)",
+    "No paragraph breaks: all three paragraphs merged into one block",
+    "Hyphenation leftovers: 'improve- ment', 'condi- tions', 'prob- ably', 'end- less'",
+    "OCR errors kept: 'regard te', 'climate, ete.', 'case os plants', opening quote doubled '“‘ Variation'"
+   ],
+   "docling": [
+    "Almost all the page is missing: only 'ment or modification.' and the last 'Indefinite variability...' paragraph appear",
+    "The whole long paragraph from 'As far as I am able to judge' to 'nature of the sap' is dropped",
+    "Drops almost the whole page: only 'ment or modification.' and the last paragraph 'Indefinite variability is ...' survive; the long 'As far as I am able to judge ...' paragraph and the opening 'domesticated animals are still capable of rapid improve-' are missing",
+    "Starts mid-word with 'ment or modification.'"
+   ]
+  },
+  "en_brochure_nasa-msl-curiosity-factsheet-p1": {
+   "ours": [
+    "Caption 'Curiosity touches down on Mars after being lowered by its Sky Crane.' separated from its image, placed after the Mission Overview text",
+    "Hyphenation artifacts: 'environ- ment', 'ana- lyzes', 'Sta- tion', 'it- self', 'touch- down'",
+    "NASA logo image duplicated (appears twice)",
+    "Large rotated 'NASAfacts' branding image left in the flow at the end",
+    "Italic captions rendered as plain text",
+    "Sky Crane caption 'Curiosity touches down on Mars after being lowered by its Sky Crane.' separated from its image and placed directly above the Gale Crater image, so it reads as the wrong caption",
+    "Captions not italic, rendered as body paragraphs",
+    "NASA logo duplicated twice and the rotated 'NASAfacts' wordmark rendered as a huge image at the end",
+    "Hyphenation leftovers: 'environ- ment', 'ana- lyzes', 'Sta- tion', 'it- self', 'touch- down'",
+    "Page ends with dangling 'Selection of Gale Crater fol-'"
+   ],
+   "docling": [
+    "Both figures moved before the 'Mission Overview' heading and swapped in order (Gale Crater first, then Sky Crane)",
+    "Text continues past the page end: 'Selection of Gale Crater followed consideration of more than 30 Martian locations...' (content from the next page)",
+    "Small NASA logo image left at the end",
+    "Adds text that is not on this page: last paragraph continues past 'Selection of Gale Crater fol-' with '...followed consideration of more than 30 Martian locations ...' (spill from next page)",
+    "Em dashes turned into hyphens: 'laboratory - the rover Curiosity - at Gale Crater'",
+    "Both figures grouped after the left column, Sky Crane image placed before 'Mission Overview' rather than beside it (acceptable)",
+    "Rotated 'NASAfacts' wordmark dropped (fine), NASA logo kept at end"
+   ]
+  },
+  "en_brochure_nasa-msl-curiosity-factsheet-p2": {
+   "ours": [
+    "Both images placed at the top, captions dumped at the very end, separated from their images",
+    "Running footer 'Mars Science Laboratory/Curiosity 2 NASA Facts' left in the flow",
+    "Line-end hyphens kept: 'examin- ing', 'ki- lometers', 'Measure- ments', 'Yel- lowknife', 'hab- itable'",
+    "Paragraph split across columns: '...toward \"Yellowknife Bay\" to' / 'investigate an ancient river...'",
+    "Captions lose their italics",
+    "Running footer 'Mars Science Laboratory/Curiosity 2 NASA Facts' left in the flow",
+    "Both photos stacked at the top, captions dumped at the very end, detached from images",
+    "Hyphenation artifacts kept: 'examin- ing', 'ki- lometers', 'Measure- ments', 'Yel- lowknife', 'hab- itable'",
+    "Paragraph split across column break: '\"Yellowknife Bay\" to' / 'investigate an ancient river...'",
+    "Caption italics lost"
+   ],
+   "docling": [
+    "Entire first column paragraph missing: 'lowed consideration of more than 30 Martian locations ... using this improved precision.'",
+    "Captions placed above images (minor)",
+    "Entire first left-column paragraph missing ('lowed consideration of more than 30 Martian locations ... using this improved precision.')"
+   ]
+  },
+  "en_financial_federal-reserve-2023-p1": {
+   "ours": [
+    "No table at all: every cell is a separate paragraph (label, then each number on its own line), so columns and rows are lost",
+    "Running header 'Financial Statements 3' left in the flow",
+    "'(in millions)' unit dropped",
+    "Row labels 'Loans:', 'Deposits:', 'System Open Market Account:' made into headings; closing note 'The accompanying notes are an integral part...' made a heading",
+    "'$' signs detached into lines of their own ('11,037 $')",
+    "Table completely flattened: every label and number on its own line ('Gold certificates', '$', '11,037 $', '11,037')",
+    "Row labels like 'Loans:', 'System Open Market Account:', 'Deposits:', 'ASSETS' turned into headings",
+    "Running header 'Financial Statements 3' kept",
+    "Closing note 'The accompanying notes are an integral part...' made a heading",
+    "'(in millions)' unit dropped"
+   ],
+   "docling": [
+    "Header row broken: '2022' in the title row and '2023' in the ASSETS row",
+    "Every row label bold, not just section labels; sub-item indentation lost",
+    "Multi-line labels split into extra rows (Treasury securities values on an empty-label row; 'Consolidated variable interest entities...' and 'Surplus...' split)",
+    "Rows merged: 'Other liabilities 543 7,784,180 / 359 8,511,964' swallows Total liabilities values; 'Total liabilities Reserve Bank capital' merged label",
+    "'$ 8,569,354' wraps oddly (minor)",
+    "Column headers misaligned: '2022' on the title row, '2023' on the ASSETS row",
+    "'Total liabilities' merged with 'Reserve Bank capital' row, and its values (7,784,180 / 8,511,964) merged into the 'Other liabilities' row",
+    "Wrapped labels split into separate rows (Treasury securities values on an empty-label row; 'December 31, 2023 and 2022, respectively)' row)",
+    "All row labels rendered bold; indentation hierarchy lost",
+    "Em dash changed: 'Deferred asset-remittances'"
+   ]
+  },
+  "en_financial_federal-reserve-2023-p2": {
+   "ours": [
+    "Table destroyed: all row labels listed first, then the 2023 numbers, then the 2022 numbers, so no value can be matched to its row",
+    "Header row reduced to loose lines '2023' / '2022'",
+    "'(in millions)' missing",
+    "2023 value '103' (Change in prior service costs) missing from the number dump",
+    "Row label split across two paragraphs: 'remittances to' / 'the Treasury'",
+    "Footer sentence 'The accompanying notes are an integral part...' turned into a bold heading",
+    "Sub-labels like 'Loans:' and 'Assessments:' turned into headings (h2), which is a defensible way to show section rows",
+    "Table completely destroyed: all labels listed first, then all 2023 values, then all 2022 values; numbers cannot be matched to rows",
+    "Lone '$' paragraphs scattered among the numbers",
+    "'(in millions)' lost",
+    "Row label split: 'remittances to' / 'the Treasury'",
+    "Footer note 'The accompanying notes are an integral part...' rendered as a heading",
+    "Row labels like 'Loans:' and 'System Open Market Account:' turned into headings"
+   ],
+   "docling": [
+    "Two rows merged: 'Loans: institutions' and 'Loans to depository Other loans'",
+    "Two rows merged: 'Change in actuarial (losses) gains related to benefit plans Total other comprehensive (loss) income' with values '(379) (276)' / '1,848 1,819' in one cell",
+    "Every row label is bold, so section headers (INTEREST INCOME, Loans:) look the same as line items",
+    "Em dash shown as '-'",
+    "Row labels merged/garbled: 'Loans: institutions' and 'Loans to depository Other loans'",
+    "Two rows merged: 'Change in actuarial (losses) gains related to benefit plans Total other comprehensive (loss) income' with both values in one cell",
+    "Every row label bolded, so section labels (Loans:, System Open Market Account:) no longer stand out",
+    "Indentation hierarchy of line items lost"
+   ]
+  },
+  "en_form_irs-1040-2025-p1": {
+   "ours": [
+    "Top of form missing: 'Department of the Treasury—Internal Revenue Service', '2025', 'OMB No. 1545-0074', 'For the year Jan. 1–Dec. 31, 2025...', 'Filed pursuant to section 301.9100-2', 'Combat zone', 'Deceased ... Spouse ...'",
+    "Text shredded one line per paragraph: 'Check only' / 'one box.', 'If more' / 'than four' / 'dependents,', 'Full-time' / 'student'",
+    "Hundreds of leader dots each on its own line ('.' repeated) between every income line",
+    "Line numbers split from their labels ('1 a' ... '1a', 'b', 'Household employee wages...')",
+    "Stray rotated 'Form' image fragment under the title; footer 'For Disclosure, Privacy Act... Cat. No. 11320B Form 1040 (2025) Created 9/5/25' left in flow",
+    "Dependents grid not a table; columns flattened into repeated 'Yes / And in the U.S.' lines",
+    "Header block missing: 'Department of the Treasury—Internal Revenue Service', '2025', 'OMB No. 1545-0074', 'For the year Jan. 1–Dec. 31, 2025...', 'Filed pursuant to section 301.9100-2', 'Combat zone', 'Deceased ... Spouse ...' not present",
+    "Stray rotated 'Form' fragment under the title",
+    "Every printed line becomes its own paragraph: 'If more / than four / dependents, / see instructions / and check / here .', 'Full-time / student', 'Child tax / credit'",
+    "Hundreds of dot-leader fragments ('.') on their own lines",
+    "Line numbers lost or misplaced: '8', '9', '10' missing before their descriptions, '11a' duplicated; '7b Check if:' missing",
+    "Dependents grid not a table",
+    "Page footer kept: 'For Disclosure, Privacy Act...', 'Cat. No. 11320B', 'Form 1040 (2025) Created 9/5/25'"
+   ],
+   "docling": [
+    "Section order scrambled: 'Check here if your main home...' placed inside Filing Status; HOH/QSS options after Presidential Election Campaign; 'exchange, or otherwise dispose of a digital asset...' and 'Yes No' land inside Dependents between 'Dependent 3' and 'Dependent 4'",
+    "'Income' heading and its sidebar ('Attach Form(s) W-2 here...', 'Attach Sch. B if required.') pushed to the very end, after line 11a",
+    "Hundreds of leader dots each on its own line; box numbers ('1a', '1b') separated from labels",
+    "Income lines rendered as one-item bullet lists ('• 1 a Total amount...'), spurious list markup",
+    "Fragments out of place: 'Line 3a', '2 Line 3b', '. 1 Rollover' after 4a",
+    "Dependents grid not a table",
+    "Hundreds of dot-leader fragments ('.') each on its own line through the income section",
+    "'Income' heading and its side notes ('Attach Form(s) W-2 here...', 'Attach Sch. B if required.') placed at the very end after line 11a",
+    "Digital Assets question split: first half before 'Dependents', 'exchange, or otherwise dispose...' inside the dependents block; 'Yes No' lands between 'Dependent 3' and 'Dependent 4'",
+    "Income lines turned into spurious bullet items ('• 1 a Total amount...', '• b Taxable amount .') with line-box numbers ('1a', '1b') as separate paragraphs",
+    "Dependents grid not a table; per-dependent checkboxes repeated as loose lines",
+    "Field labels on one line merged: 'Your first name and middle initial Last name Your social security number'",
+    "Filing-status options interleaved with Presidential Election Campaign text"
+   ]
+  },
+  "en_form_irs-1040-2025-p2": {
+   "ours": [
+    "Hundreds of stray '.' paragraphs from dot leaders, each on its own line",
+    "Line numbers duplicated as separate paragraphs ('11b' ... '11b', '12e', '13a' ... '13a')",
+    "Form structure lost: no table; labels, numbers and boxes each a separate paragraph",
+    "Section labels split and partly made headings: 'Tax and' (text) + 'Credits' (heading); 'Spouse:' wrongly a heading; 'Amount' heading + 'You Owe' text",
+    "Sidebar note interleaved into a line: 'If you made estimated tax payments...' / 'If you have a' / 'enter their SSN' / 'qualifying child,'",
+    "Standard-deduction sidebar bullets broken into one-line fragments ('• Single or' / 'Married filing' / 'separately,')",
+    "Bold lost ('taxable income', 'total tax', 'overpaid'); footer 'Form 1040 (2025)' kept",
+    "Form shredded into one fragment per paragraph: '11b', 'Amount from line 11a ...', each dot leader rendered as its own '.' line (dozens per row), spanning 15 screens",
+    "Section labels split into broken headings: 'Tax and' (plain) then 'Credits' (heading); 'Paid' / 'Preparer' / 'Use Only' as three headings; 'Spouse:' made a heading",
+    "No table structure: line numbers, labels and amount boxes disconnected; checkboxes lost",
+    "Sidebar 'Standard deduction for— • Single or / Married filing / separately, / $15,750' broken one line per paragraph instead of a list",
+    "Bold lost ('taxable income', 'total tax', 'overpaid'); running header/footer 'Form 1040 (2025)' kept"
+   ],
+   "docling": [
+    "Whole page is a single picture of the form: no text at all, nothing reflowable, selectable or translatable",
+    "No headings, list or table structure as text",
+    "Entire page delivered as a single image: no reflowable or selectable text, no real headings or table markup",
+    "Not a reflow at all, but every line, box and label is legible and in place"
+   ]
+  },
+  "en_govreport_economic-report-president-2024-ch1-p1": {
+   "ours": [
+    "'Chapter 1' is plain text, not a heading",
+    "Italic dedication lost; '(Spriggs 2015)' split into its own paragraph",
+    "Hyphenation left in: 'work- ers'', 'participa- tion'",
+    "Citation links (Spriggs 2015, Manning 2003) not links",
+    "GPO 'Authenticated' logo image kept in the flow",
+    "Hyphenation artefacts left: 'work- ers'', 'participa- tion'",
+    "'(Spriggs 2015)' split into its own paragraph",
+    "GPO authentication logo left in the flow",
+    "Italic dedication rendered as plain text",
+    "Citation links lost"
+   ],
+   "docling": [
+    "Adds text that is not on the page: 'U-6 starts with the standard unemployment rate as a base... or other economic reasons.' joined onto the last sentence 'with higher average'",
+    "Em dashes changed to hyphens: 'labor markets-loosely speaking', 'searchers-on', 'outcomes-such as'",
+    "Words merged: 'BidenHarris'",
+    "Italic dedication lost; citation links not links",
+    "Em-dashes lost: 'markets-loosely speaking', 'searchers-on working families', 'outcomes-such as'",
+    "Words merged: 'BidenHarris Administration'",
+    "Text not on the page appended to the last paragraph: 'U-6 starts with the standard unemployment rate as a base...'",
+    "Italic dedication rendered as plain text",
+    "Citation links (Spriggs 2015, Manning 2003) lost"
+   ]
+  },
+  "en_govreport_economic-report-president-2024-ch1-p2": {
+   "ours": [
+    "Spurious cropped chart fragment at top (partial plot without axes)",
+    "Whole shaded box rendered as an image including all three paragraphs, then the same text repeated as real text below: body text appears twice",
+    "Figure caption/legend/notes duplicated again as text after the body ('u*-u V/U Quits rate...', 'Figure 1-i. Measures of Labor Market Tightness', 'Council of Economic Advisers Sources: ...')",
+    "Page footer '26 | Chapter 1' left in flow",
+    "Three paragraphs merged into one; hyphens left: 'condi- tions', 'individu- als'",
+    "Stray cropped fragment of the chart (no axes or legend) at the top",
+    "Whole page (figure plus all body text) embedded as an image, so the body text is shown twice",
+    "Page footer '26 | Chapter 1' left in flow",
+    "Three body paragraphs merged into one; hyphenation left: 'condi- tions', 'individu- als'",
+    "Chart legend and caption duplicated as text after the body: 'u*-u V/U Quits rate U-6 (negated) Prime-age EPOP', 'Figure 1-i. Measures of Labor Market Tightness', 'Council of Economic Advisers Sources...'"
+   ],
+   "docling": [
+    "Entire first paragraph missing ('U-6 starts with the standard unemployment rate as a base ... or other economic reasons.')",
+    "Text ends mid-sentence 'is a better predictor of' (correct, page break) — fine",
+    "Citation link styling ('Furman and Powell 2021') not kept",
+    "Entire first paragraph missing ('U-6 starts with the standard unemployment rate as a base... or other economic reasons.')",
+    "Figure caption/source notes only inside the image, not as text (acceptable)"
+   ]
+  },
+  "en_paper_llama-two-column-p1": {
+   "ours": [
+    "Author list partly turned into headings: 'Eric Hambro, ... Armand Joulin' and 'Edouard Grave*, Guillaume Lample*' as h2, the rest as plain text",
+    "Footnotes placed between the two columns",
+    "Hyphenation left in: 'founda- tion', 'avail- able', 'mas- sive', 'per- form', 'mod- els', 'Hoff- mann', 'lan- guage'",
+    "Two Introduction paragraphs merged into one",
+    "Rotated arXiv sidebar 'arXiv:2302.13971v1 [cs.CL] 27 Feb 2023' kept as a big image at the end",
+    "Italics and citation links lost",
+    "Author lines split, last two rendered as headings ('Eric Hambro, ...', 'Edouard Grave*, Guillaume Lample*')",
+    "Hyphenation artefacts throughout: 'founda- tion', 'mas- sive', 'per- form', 'avail- able', 'mod- els', 'Hoff- mann', 'lan- guage'",
+    "Footnotes dropped into the middle of the flow between the two columns",
+    "Rotated arXiv side stamp kept as a large image at the end",
+    "Paragraph 'The objective of the scaling laws...' merged into the previous paragraph",
+    "Italics ('training', 'inference', 'LLaMA') and citation links lost"
+   ],
+   "docling": [
+    "Right column (starting 'performance, a smaller one trained longer...') placed before the Abstract and the Introduction",
+    "Author list shown as a large heading as big as the title",
+    "Adds text from the next page: '...reach a certain level of Overall, our entire training dataset contains roughly 1.4T tokens...'",
+    "Merged words: 'fromHoffmann', 'LLaMA65B'",
+    "Italics ('training', 'inference', 'LLaMA') and citation links lost; footnote marker '1' not a superscript",
+    "Reading order broken: right column ('performance, a smaller one trained longer...') placed before the Abstract and Introduction",
+    "All author names rendered as a large heading that outranks the title",
+    "Text from the next page appended: 'Overall, our entire training dataset contains roughly 1.4T tokens...'",
+    "Merged words: 'fromHoffmann et al.', 'LLaMA65B'",
+    "Footnote marker detached: 'research community 1 .'",
+    "Italics and citation links lost"
+   ]
+  },
+  "en_paper_llama-two-column-p2": {
+   "ours": [
+    "Figure 1 chart lost: replaced by stray axis text ('0 200 400 ... Billion of tokens', 'Training loss', '1.5' ... '2.2' as separate lines, 'LLaMA 7B LLaMA 13B ...')",
+    "Fraction garbled: '2 3⁴dinstead of⁴das in PaLM' (should be 2/3 4d instead of 4d)",
+    "Hyphenation artifacts throughout: 'dur- ing', 'ap- proximately', 'architec- ture', 're- place', 'opti- mizer', 'imple- mentation'",
+    "Paragraph breaks lost: 'The details of the hyper-parameters...' merged into the Rotary paragraph; 'To further improve' merged into previous paragraph",
+    "Footnote merged: '2https://github.com/...'; bold run-in heads ('Pre-normalization [GPT3].') and citation links lost",
+    "Figure 1 lost: chart exploded into stray text ('0 200 400 ... Billion of tokens', 'Training loss', '1.5' ... '2.2' on separate lines, 'LLaMA 7B LLaMA 13B ...'), no plot image",
+    "Fraction badly garbled: '2 3⁴dinstead of⁴das in PaLM.' set as a small separate line",
+    "Hyphenation leftovers throughout: 'dur- ing', 'ap- proximately', 'architec- ture', 're- place', 'opti- mizer', 'imple- mentation', 'checkpoint- ing'",
+    "Paragraphs merged ('The details of the hyper-parameters...' joined to Rotary paragraph; 'To further improve...' joined)",
+    "Exponents flattened '3.0e−4'; bold run-in heads lost; '2https://github.com/...' footnote merged"
+   ],
+   "docling": [
+    "First paragraph missing: 'Overall, our entire training dataset contains roughly 1.4T tokens ... two epochs.'",
+    "Fraction garbled: 'a dimension of 23 4d instead of 4d'",
+    "Footnote marker not superscript: 'xformers library, 2 is inspired'; merged word 'fromDao et al.'",
+    "Bold run-in heads and citation links lost; '2, 000 warmup' spacing",
+    "Missing the whole first paragraph 'Overall, our entire training dataset contains roughly 1.4T tokens ... two epochs.'",
+    "Fraction garbled: 'a dimension of 23 4d instead of 4d' (should be 2/3 4d)",
+    "Exponents flattened: '3.0e-4' instead of 3.0e^-4",
+    "Bold run-in heads lost ('Pre-normalization [GPT3].', table and figure caption bold lost); citation links lost",
+    "Footnote marker flattened 'xformers library, 2 is inspired'; merged word 'fromDao et al.'",
+    "'2, 000 warmup' split number"
+   ]
+  },
+  "en_paper_mamba-equations-p1": {
+   "ours": [
+    "Authors and both affiliations rendered as headings",
+    "'Abstract' not a heading",
+    "arXiv side stamp 'arXiv:2312.00752v2 [cs.LG] 31 May 2024' left at the end as a large rotated image",
+    "Affiliation superscripts lost ('1Machine Learning', '2Department')",
+    "Italics ('selectively', 'sequence models'), bold 'Mamba' and citation links lost",
+    "Authors and affiliations rendered as headings ('1Machine Learning Department...', '2Department ... agu@cs.cmu.edu')",
+    "'Abstract' left as plain text, not a heading",
+    "arXiv side stamp kept as a large image at the end ('arXiv:2312.00752v2 [cs.LG] 31 May 2024')",
+    "Italics and bold 'Mamba' lost"
+   ],
+   "docling": [
+    "Author superscripts flattened: 'Albert Gu * 1 and Tri Dao * 2'",
+    "Stray '2' on its own line before 'Department of Computer Science'",
+    "Italics, bold 'Mamba' and citation links lost",
+    "Author/affiliation superscripts flattened: 'Albert Gu ∗ 1 and Tri Dao ∗ 2'",
+    "Affiliation marker '2' split onto its own line",
+    "Italics ('selectively', 'sequence models') and bold 'Mamba' lost; citation links not kept"
+   ]
+  },
+  "en_paper_mamba-equations-p2": {
+   "ours": [
+    "Figure diagram labels dumped as stray lines after the figure: 'Bt', 'ht', 'xt', 'ht−1', 'yt', 'A', 'Ct', 'Δt'",
+    "Caption duplicated: once inside the figure image, once as text",
+    "Equations reflowed one per line with clipped equation numbers '(1a)', '(2a)'; overbars lost ('ht = Aht−1 + Bxt', 'K = (CB, CAB, ..., CA' / '˙B, ...)' broken across lines, k superscript lost)",
+    "Overbars lost in prose ('(A, B)' for discretized params), 'ℝ' rendered as 'R', '↦' as '↦→', 'h(t) ∈RN' (superscript N lost)",
+    "Run-in bold heads ('Discretization.', 'Computation.', 'Linear Time Invariance (LTI).') and bold 'linear recurrence'/'global convolution' lost; italic 'discretization rule' lost",
+    "Stray figure labels extracted as separate lines after the figure: 'Bt', 'ht', 'xt', 'ht−1', 'yt', 'A', 'Ct', 'Δt'",
+    "Figure caption duplicated (in image and again as text)",
+    "Equations broken into separate lines with equation numbers on their own lines, numbers rendered clipped ('(1a)', '(2b)')",
+    "Equation 3a garbled: 'K = (CB, CAB, . . . , CA' / '·ᵏB, . . . )'; overbars missing on K, A, B in several equations",
+    "Overbars lost in inline math; 'x(t) ∈R ↦→y(t)', 'h(t) ∈RN'",
+    "Bold run-in paragraph heads and bold terms lost; citation links lost"
+   ],
+   "docling": [
+    "All displayed equations missing: (1a)-(3b) and (4) replaced by 'Formula not decoded' placeholders",
+    "Figure title 'Selective State Space Model' promoted to a page heading; caption placed above the figure",
+    "Overbars lost in prose, 'ℝ' as 'R', 'h(t) ∈ RN', '↦ →'",
+    "Run-in bold heads and bold/italic terms lost",
+    "All display equations missing, replaced by 'Formula not decoded' placeholders (equations 1a-3b and 4)",
+    "Figure title 'Selective State Space Model' promoted to a document heading",
+    "Overbars lost in inline math: '(A, B)' for (Ā, B̄), 'A = fA(Δ, A)'",
+    "Garbled inline math: 'x (t ) ∈ R ↦ →y(t) ∈ R', 'h(t) ∈ RN' (superscript N lost), '↦ → (A, B, C)'",
+    "Bold run-in paragraph heads ('Discretization.', 'Computation.', 'Linear Time Invariance (LTI).') and bold 'linear recurrence'/'global convolution' lost; citation links lost"
+   ]
+  },
+  "en_scanned_naca-report-1381-image-only-p1": {
+   "ours": [
+    "Raw LaTeX in title: 'SUPERSONIC SPEEDS $$^1$$'",
+    "Hyphenation artifacts: 'con- stant', 'diffi- cult', 're- entry', 'there- fore', 'how- ever', 'them- selves'",
+    "Italic summary rendered as plain text",
+    "OCR error 'H. Jullan Allen' in footnote",
+    "Raw LaTeX left in title: 'SPEEDS $$^1$$' instead of superscript 1",
+    "Summary italics lost",
+    "Hyphenation leftovers: 'con- stant', 'rela- tively', 'diffi- cult', 're- entry', 'there- fore', 'con- siderable', 'how- ever', 'heat- ing', 'them- selves'",
+    "Footnote '1 Supersedes NACA Technical Note 4047 ...' placed mid-text where the column breaks, mid-sentence ('which, com-' / footnote / 'bined with...')"
+   ],
+   "docling": [
+    "SUMMARY placed before the report number and title",
+    "Garbled OCR: 'curious nding', 'isindependent', 'and drnd d s pfd n flight-path angle', title ends 'ENTERING T E ETE SE'",
+    "Lines from the two columns interleaved and text dropped: 'This condition is other hand, if a missile is so light as to be decelerated to relaconvective heating is minimized by employing shapes with a delivered to...'",
+    "Introduction paragraphs merged and out of order ('Fahrenheit which, com- For missiles designed...'); 'Wagner's results of this analysis... them-' / 'approach, precedes...' scrambled",
+    "Footnote 'Supersedes NACA...' dropped into the middle of the Introduction without marker; italic summary lost; 'Jullan'",
+    "Order scrambled: SUMMARY placed before the REPORT 1381 title; second column 'bined with the high surface shear...' placed before the rest of the Summary; Introduction paragraphs out of order",
+    "Title truncated and garbled: 'BALLISTIC MISSILES ENTERING T E ETE SE'",
+    "Garbled/missing text: 'and drnd d s pfd n flight-path angle', 'which a d nd ee in the booster', 'decelerated to relaconvective heating is minimized by employing shapes with a delivered to...', 'high preşsure'",
+    "Sentences spliced across lines: 'Wagner's results of this analysis ... them-' / 'approach, precedes the heating analysis. The generalized selves and...'",
+    "Merged words 'curious nding', 'isindependent'; italics lost; 'EGGERs' casing"
+   ]
+  },
+  "en_scanned_naca-report-1381-image-only-p2": {
+   "ours": [
+    "Raw unrendered LaTeX in the text: '$m$', '$\\theta$', '$C_D$', 'written$^2$', '$\\rho_o$', '$\\blacklozenge$'",
+    "Symbol list (C_D, V, A, m, rho...) squashed into one bullet starting 'where where...'",
+    "Numbered list 1-4 squashed into one bullet starting with the fragment 'nplined case.'",
+    "Duplicated fragments: '(See Appendix A for compres', 'lation', 'permissible.', 'under consideration, at least as long as the total drag is largest.'",
+    "Equation crops include bits of nearby text ('this relation', a dashed line)",
+    "Superscript footnote marks shown as '$^3$'",
+    "Raw LaTeX left unrendered in the text: '$m$', '$\\theta$', '$C_D$', '$^2$', '$\\blacklozenge$'",
+    "Symbol list run together into a single bullet starting with a duplicate 'where'",
+    "Numbered list 1-4 run together into one bullet with fragments 'nplined case.' and 'lation'",
+    "Stray fragment '(See Appendix A for compres'",
+    "Footnote text duplicated: 'permissible.' and 'under consideration, at least as long as the total drag is largest.'",
+    "Equation crop includes a stray piece of 'this relation' text",
+    "Equations kept only as images (acceptable), but some crops are cut off at the edges"
+   ],
+   "docling": [
+    "Every equation (1)-(7) replaced by a 'Formula not decoded' placeholder; values rho_o=0.0034, beta=1/22,000 and 'Z=V^2' lost",
+    "Symbol list scrambled: 'm mass density of the air', 'mass of the body, slugs', 'g x,y horizontal...', stray '0', 'fight path'",
+    "'where' turned into a heading",
+    "Sentence order broken: 'minor extent, the acceleration of gravity...' placed before 'In general, the drag coefficient...'",
+    "'Noting that' / 'we let' lines missing",
+    "OCR errors: 'Is', 'radlus', 'glven', 'permisstble', 'st least', 'acceleratlon', 'Increase'",
+    "Every equation replaced by a 'Formula not decoded' placeholder (eqs 1-7 and the inline ones)",
+    "Text 'Noting that ... we let Z=V²' missing",
+    "Symbol list garbled: 'm mass density of the air', 'mass of the body, slugs' detached, a stray bullet 'ρ acceleration of gravity', stray '0'",
+    "'where' rendered as a heading",
+    "Order scrambled: 'minor extent, the acceleration of gravity...' before 'In general, the drag coefficient...'",
+    "OCR errors: 'Is a rotating sphere', 'radlus', 'glven', 'permisstble', 'st least', 'acceleratlon'",
+    "Lines broken into separate paragraphs ('Consider a body...' / 'great height...' / 'angle of approach...')",
+    "Footnotes dropped into the middle of the flow"
+   ]
+  },
+  "en_scanned_naca-report-1381-p1": {
+   "ours": [
+    "Many OCR errors: 'analys_s', 'D is found', 'tra3ectory', 'coe_eient', 'coey_cient', 'JuLIA_ ALLENand', 'o1 particular missile%', 'tieat- ing'",
+    "Second half of Summary turned into fake bullet and nested-bullet lists",
+    "'INTRODUCTION' rendered as a bullet item, not a heading; stray bullets ', . 4'",
+    "Stray fragments 'rz', 'i\"', 'i .\" :', '.?' in the flow; title split into two headings",
+    "Right column collapsed into one paragraph; hyphens kept ('con- siderable', 'how- ever')",
+    "Summary italics lost",
+    "Second summary paragraph turned into fake bullets with nesting, full of noise (':_', ':::7_', '\"f, _\"')",
+    "INTRODUCTION heading became a bullet ':._ INTRODUCTION'; stray bullet ',. 4'",
+    "OCR errors: 'analys_s', 'D is found', 'tra3ectory', 'coe_eient', 'o1 particular missile%', 'tieat- ing', 'JuLIA_ ALLENand'",
+    "Stray fragments 'rz', 'i\"', 'i .\" :', '.?'",
+    "Hyphens kept ('con- stant', 'there- fore'); all right-column paragraphs merged into one",
+    "Summary italics lost"
+   ],
+   "docling": [
+    "~27 lines of stray OCR fragments ('i', ':', ':_', '::', 'rz' ...) at the top",
+    "Summary placed before the title; 'REPORT' and '1381' split into two headings",
+    "Title truncated and garbled: 'ENTERING TE E E E SS' (loses 'THE EARTH'S ATMOSPHERE AT HIGH SUPERSONIC SPEEDS')",
+    "Order scrambled: right column's first paragraph ('bined with the high surface shear...') appears before the second Summary paragraph",
+    "Introduction runs straight into a right-column paragraph ('com- For missiles designed...'), text lost and garbled: 'as to et o valuable'; footnote dropped mid-text",
+    "Summary italics lost",
+    "~27 lines of scan-margin junk at the top ('i', 'i\"', ':_', ':.::', 'rz')",
+    "Order scrambled: first summary paragraph, then title, then right-column 'bined with...', then second summary paragraph, then Introduction",
+    "Introduction run straight into the right column: 'Fahrenheit which, com- For missiles designed...'",
+    "Title truncated/garbled: 'BALLISTIC MISSILES ENTERING TE E E E SS'; 'REPORT' and '1381' as separate headings",
+    "Text lost: 'to cause spalling of the surface, and thus result in loss of' became 'to et o'",
+    "Footnote 'Supersedes NACA...' dropped mid-text",
+    "Summary italics lost"
+   ]
+  },
+  "en_scanned_naca-report-1381-p2": {
+   "ours": [
+    "Sketch figure missing",
+    "Equations turned into garbage text: 'd__ay22dV , C_poA =___=._g±_ e-_V _ clt a_', 'd.__Z Cop_____e-a,Z+2g._O', 'p=p__ (2)'",
+    "Garbage equation pieces shown as nested bullet lists ('Z_e.,', '2g e- dy+const.', 'COPe A dt CDpdl e-_e')",
+    "'Equations (1) then reduce to the single equation' (right column) placed before the parametric equations of the left column",
+    "Symbol list and numbered list 1-4 squashed into running text",
+    "'MOTION OF THE BODY' is not a heading",
+    "OCR errors: 'be _-ritten s', 'angle of approach is 0', 'whiSh', 'yidds', 'gravRy', 'ineremm', 'preS_ure'",
+    "Stray marks ':[.', '\"i', '_'!'",
+    "Running sketch (figure) missing entirely",
+    "Equations turned into OCR junk text: 'd__ay22dV , C_poA =____=._g±_ e-_V _ clt a_', 'd._Z Cop_____e-a,Z+2g._O'",
+    "Bogus nested bullet lists created from equation fragments ('Z_e.,', '2gy+const 1', '1 (6) •')",
+    "Right column's 'Equations (1) then reduce to the single equation' moved before the parametric equations",
+    "'MOTION OF THE BODY' not a heading",
+    "Numbered list run together: 'simplified case: 1. The body descends vertically. 2. ...'",
+    "Stray junk ':[.', '\"i', '_'!', ';'",
+    "OCR errors: 'be _-ritten s', 'whiSh', 'yidds', 'angle of approach is 0'"
+   ],
+   "docling": [
+    "Text duplicated many times: 'great height. If, at any altitude y, the speed is V and the' appears twice, both footnotes appear twice (clean and OCR-garbled), 'and equation (3) becomes the linear differential equation' twice, the 'As an exemple...' paragraph and the 'calculated density' paragraph partly repeated",
+    "'angle of approach is θ...' placed before 'Consider a body of mass m'",
+    "All equations replaced by 'Formula not decoded'",
+    "Symbol list scrambled ('m mass density of the air', 'Λ speed', stray '0')",
+    "'relation' made into numbered item 5",
+    "Stray marks ':[.', '\"i', '_'!', '-.', '·.'",
+    "Large-scale duplication: text layer and OCR both emitted, e.g. 'Consider a body ... the great height. If, at any altitude y...', 'In general, the drag coefficient varies ... In general, the drag coefficient varies...', 'and equation (3) becomes ... and equation (3) becomes...'",
+    "Stray scan junk at top/bottom: ':[.', '\"i', '_'!', '-.', '.'",
+    "All equations replaced by 'Formula not decoded'",
+    "'relation' turned into a bogus list item 5",
+    "OCR garbage in duplicates: 'preS_ure drag', 'gravRy', 'lO0,O00-foot ineremm', 'whičh'",
+    "'angle of approach...' placed before 'Consider a body...'"
+   ]
+  },
+  "en_slides_nist-pqc-road-ahead-p1": {
+   "ours": [
+    "Speaker name and group rendered as a heading",
+    "Italic 'The Road Ahead' not italic",
+    "NIST logo includes a strip of slide background (minor)",
+    "Author/affiliation line 'Dustin Moody Cryptographic Technology Group' made a heading",
+    "Italic subtitle and superscript 'rd' lost (text intact as '3rd')"
+   ],
+   "docling": [
+    "Title and subtitle merged into one heading 'NIST PQC The Road Ahead'",
+    "Author, group and date merged into one line; superscript lost: 'October 3 rd , 2023'",
+    "Photo crop includes the overlapping date text from the slide, so the date appears again garbled inside the image",
+    "Logo placed before the photo",
+    "Title and subtitle merged into one heading 'NIST PQC The Road Ahead'",
+    "Date ordinal broken: 'October 3 rd , 2023'",
+    "Photo crop includes the overlaid date text, duplicating it as garbled image text",
+    "Italic subtitle lost"
+   ]
+  },
+  "en_slides_nist-pqc-road-ahead-p2": {
+   "ours": [
+    "Superscript lost in '4th'",
+    "Footer date 'March 2025' kept in the flow",
+    "NIST logo kept as an image (decoration)",
+    "Superscript lost: '4th Round'",
+    "Slide footer 'March 2025' left in the flow",
+    "NIST header logo kept as an image"
+   ],
+   "docling": [
+    "Bullet nesting lost: sub-items (82 submission packages, ... Over 100 commenters) shown at the same level as the top items, with '·' characters",
+    "'4 th' spaced out, superscript lost; en dash changed to '-'",
+    "Stray 'NIST' text paragraph next to the logo image",
+    "Three-level nesting flattened into one flat list of '·' items",
+    "Superscript lost and split: '4 th Round'",
+    "Stray 'NIST' text paragraph after the logo",
+    "NIST header logo kept as an image"
+   ]
+  },
+  "en_spec_rfc9562-uuid-p1": {
+   "ours": [
+    "Metadata block moved after the Abstract and flattened: 'Stream: RFC: Obsoletes: Category: Published: ISSN: Authors:' then 'Internet Engineering Task Force (IETF) 9562 4122 Standards Track May 2024 2070-1721 K. Davis Cisco Systems'",
+    "Page footer 'Davis, et al. Standards Track Page 1' left in flow",
+    "Links (9562, 4122, rfc-editor URL) and italic affiliations lost",
+    "Metadata table flattened into runs of text ('Stream: RFC: Obsoletes: Category: ...' then 'Internet Engineering Task Force (IETF) 9562 4122 ...')",
+    "Metadata moved after the Abstract instead of at the top",
+    "Page footer kept: 'Davis, et al. Standards Track Page 1'",
+    "Links not links; affiliations not italic"
+   ],
+   "docling": [
+    "Abstract's two paragraphs merged then split at a wrong place ('...earlier versions of the OSF DCE' / 'specification have been...')",
+    "First two Status paragraphs merged",
+    "Punctuation displaced: 'may be obtained at . https://www.rfc-editor.org/info/rfc9562'",
+    "Links and italic affiliations lost",
+    "Two Abstract paragraphs merged and then split at the wrong place ('...earlier versions of the OSF DCE' / 'specification have been incorporated...')",
+    "First two Status of This Memo paragraphs merged",
+    "URL misplaced after the period: 'obtained at . https://www.rfc-editor.org/info/rfc9562'",
+    "Links (9562, 4122, URL) not links; author affiliations not italic"
+   ]
+  },
+  "en_spec_rfc9562-uuid-p2": {
+   "ours": [
+    "Order wrong: the 'An example version/variant layout' and 'It should be noted' paragraphs come before Table 2",
+    "Figure 5 code block turned into a prose paragraph with all five UUID lines run together",
+    "'Figure 5: UUIDv4 Variant Examples' caption placed before the code instead of after",
+    "Footer kept: 'Davis, et al. Standards Track Page 11'",
+    "Link on 'Table 1' and italic captions lost",
+    "Table moved below the two following paragraphs, so 'follows the table' text precedes the table",
+    "Code figure rendered as a wrapped plain paragraph, not a code block; lines merged and broken mid-UUID ('00000000-0000-' / '4000-A000-...')",
+    "Figure caption placed above the code with the table caption stacked right before it",
+    "Running footer kept: 'Davis, et al. Standards Track Page 11'",
+    "Hyphenation kept 'sub- typing'; 'Table 1' link lost"
+   ],
+   "docling": [
+    "Code block kept as monospace but its five lines joined into one line that runs off the right edge (cut off at '00000000-0000-4000-A000-00')",
+    "Caption 'Figure 5: UUIDv4 Variant Examples' missing",
+    "Link on 'Table 1' and italic captions lost",
+    "Code figure lines joined into one long line and cut off at the right edge ('00000000-0000-4000-A000-00...'), last lines including 'xxxxxxxx-xxxx-Mxxx-Nxxx-xxxxxxxxxxxx' not visible",
+    "Figure caption 'Figure 5: UUIDv4 Variant Examples' missing",
+    "Table caption moved above the table and not italic; 'Table 1' link lost"
+   ]
+  },
+  "en_standard_nist-fips197-aes-p1": {
+   "ours": [
+    "Heading '4.2 Multiplication in GF(2⁸)' lost, merged into paragraph with '� �'",
+    "Equation (4.2) flattened into garbled text: '(x + x + x + x + 1)+(x + x + 1) = x + x + x + x 6 4 2 7 7 6 4 2 (polynomial)...'",
+    "Stray exponent digits '7 6 5 4 3 2' and '8 4 3' on separate lines above equations 4.1 and 4.3",
+    "Equation numbers detached: '(4.1)' after the 4.1 heading, '(4.3)' after the next paragraph",
+    "First two paragraphs merged; 'fi' ligatures dropped ('specifed', 'fnite feld', 'coeffcients')",
+    "Scrambled sentence: 'same fnite feld element as x 4 − x2, −x 4 + x 2'",
+    "Stray exponent digits ('.7 6 5 4 3 .2', '8 4 3') listed before equation images",
+    "Equation 4.2 flattened to garbled text '(x + x + x + x + 1)+(x + x + 1) = x + x + x + x 6 4 2 7 7 6 4 2 (polynomial)...'",
+    "Equation numbers displaced: '(4.1)' appears under heading 4.1, '(4.3)' after the following sentence",
+    "Heading '4.2 Multiplication in GF(2⁸)' lost into a paragraph with '� �'",
+    "First two paragraphs merged; 'fi' ligature dropped ('fnite feld')",
+    "Some superscripts lost: 'x 4 − x2'"
+   ],
+   "docling": [
+    "All three displayed equations (4.1, 4.2, 4.3) missing, replaced by 'Formula not decoded' placeholders",
+    "Superscripts lost everywhere: 'GF(2 8 )', 'x 6 + x 5 + x + 1', 'GF 2 8'",
+    "Garbled sentence: 'x 4 + x 2 represents the 4 - x 2 4 + x 4 - x 2 same fnite feld element as x , -x 2 , and -x'",
+    "Stray '� □' before 'The symbol'",
+    "'fi' ligatures dropped ('specifed', 'fnite feld')",
+    "All three display equations (4.1, 4.2, 4.3) replaced by 'Formula not decoded'",
+    "Superscripts flattened: 'GF(2 8 )', 'x 6 + x 5 + x + 1'",
+    "Garbled inline math: 'x 4 + x 2 represents the 4 - x 2 4 + x 4 - x 2 same fnite feld element as x , -x 2'",
+    "'fi' ligature dropped: 'specifed', 'fnite feld', 'coeffcients'",
+    "Stray '� □' before 'The symbol'",
+    "Subscripts lost: 'b7 b6 b5'; links not kept"
+   ]
+  },
+  "en_standard_nist-fips197-aes-p2": {
+   "ours": [
+    "S-box table destroyed: header row flattened to 'y 0 1 2 3 4 5 6 7 8 9 a b c d e f', then ~250 hex values each on its own line, column by column, with row labels lost and values missing (e.g. row 0 '63 7c 77...' not seen in order)",
+    "Caption not bold; 'SBOX' small caps lost",
+    "Equation 5.5 split into image plus separate 'for 0 ≤ r < 4 and 0 ≤ c < 4.' line, stray 'r,c' fragment and detached '(5.5)'",
+    "'s′r,c' rendered as 's⁰ = {ed}. r,c'",
+    "Table 4 destroyed: header 'y 0 1 2 ... f' as one line, then all values one per line in column order",
+    "Many values missing (purely numeric ones such as 63, 04, 09, 53, 51, 60, 70, 77, 93 do not appear)",
+    "Equation 5.5 split into image fragments with stray 'r,c' piece and number '(5.5)' on its own",
+    "Garbled inline math: 's⁰ = {ed}. r,c'",
+    "'frst'"
+   ],
+   "docling": [
+    "Equation (5.5) missing, replaced by 'Formula not decoded'",
+    "Row labels '7' and '8' merged into one cell ('7 8') with the 'x' axis label taking row 7's place",
+    "First data column wrongly bolded",
+    "'s′r,c' rendered as 's0 = {ed}. r,c'",
+    "Row labels shifted: 'x' axis label used as row 7's label and row 8 labelled '7 8'",
+    "First data column (63, ca, b7...) bolded as if a header",
+    "Equation 5.5 replaced by 'Formula not decoded'",
+    "Garbled inline math: 's0 = {ed}. r,c'",
+    "'frst' (ligature dropped)"
+   ]
+  },
+  "en_wikipedia_monsoon-p1": {
+   "ours": [
+    "Headings 'Etymology', 'History', 'Asian monsoon' all stranded at the end with no text under them; section text runs on under 'Monsoon'",
+    "All three photos and the logo placed before the title",
+    "Bold 'monsoon', italics (monção, mawsim) and links lost",
+    "Headings 'Etymology', 'History', 'Asian monsoon' all stacked at the end instead of before their sections",
+    "All three images with captions placed before the Wikipedia logo and the title",
+    "Bold 'monsoon', italics ('monsoon', 'monção', 'mawsim') and links lost"
+   ],
+   "docling": [
+    "Pulls in the whole next page ('became strong around 8 million years ago... over the course of the Holocene:') and merges it into one huge paragraph",
+    "Etymology sentence scrambled: 'monção, \"but \"season\"), (mawsim, موسم ultimately from Arabic partly via early modern Dutch monson\"'",
+    "In the pulled-in text, en dashes dropped: '1520 million years' (15–20), 'longduration', 'DansgaardOeschger'",
+    "Pronunciation garbled '/mɒnṡuːn/'",
+    "Reference marks not superscripts ('[1]'); bold 'monsoon', italics and links lost",
+    "Stray 'WIKIPEDIA' link text above the logo",
+    "All three photos moved to the end",
+    "Text from the next page pulled in and merged into one huge paragraph ('...became strong around 8 million years ago ... The location of the EASM shifted multiple times...')",
+    "Etymology sentence scrambled by bidi handling: 'monção, \"but \"season\"), (mawsim, موسم ultimately from Arabic partly via early modern Dutch'",
+    "Merged words / lost dashes: 'longduration', '1520 million', 'DansgaardOeschger'",
+    "Paragraph split mid-sentence: 'collision of the Indian' / 'subcontinent'",
+    "Stray 'WIKIPEDIA' link before the logo",
+    "Images moved to the end of the page",
+    "Citations not superscript; bold, italics and links lost"
+   ]
+  },
+  "en_wikipedia_monsoon-p2": {
+   "ours": [
+    "Extra spaces after dashes: 'long- duration', '15– 20 million', 'Dansgaard– Oeschger'",
+    "Links (sediment, South China Sea, Eemian...) not shown as links",
+    "Spurious spaces after line-break hyphens/dashes: 'long- duration', '15– 20 million', 'Dansgaard– Oeschger'",
+    "Links lost"
+   ],
+   "docling": [
+    "Output is empty: none of the page's three paragraphs appear (the text was pulled into the previous page's conversion)",
+    "Output is empty: none of the page's text is present (it was pulled into the previous page)"
+   ]
+  },
+  "hi_wikipedia_mahatma-gandhi-p1": {
+   "ours": [
+    "Infobox placed before the Wikipedia logo and article title",
+    "Infobox not a table: label/value pairs flattened and run together ('मौत की वजह मानव हत्या[7] बैलिस्टिक आघात[8] जाति गुजराती[9]', 'Samaldas Arts College पेशा राजनीतिज्ञ')",
+    "Bold name 'मोहनदास करमचन्द गांधी'/'महात्मा गांधी' and italic 'सत्याग्रह', 'बापू' lost; links lost",
+    "Infobox flattened to paragraphs, some label/value pairs merged onto one line ('मौत की वजह ... आघात[8] जाति गुजराती[9]', 'शिक्षा ... पेशा राजनीतिज्ञ')",
+    "Infobox and photo placed before the Wikipedia logo and article title",
+    "Links and bold/italic ('महात्मा गांधी', 'सत्याग्रह', 'बापू') lost"
+   ],
+   "docling": [
+    "Broken Devanagari throughout: 'महात्मा गां धी', 'प्रमु ख राजनै तिक', 'ने ता थे', 'अहिं सा', 'सं स्कृ त', 'पू रे', 'अं ग्रेजो'",
+    "Article title repeated as a same-level heading for the infobox",
+    "Infobox not a table and labels separated from values ('जन्म', 'मौत', then '2 अक्टू बर 1869 पोरबन्दर...'; 'शिक्षा', 'पे शा', 'ऊं चाई' listed before their values); 'राजनै' / 'तिक पार्टी' split across lines",
+    "Citation superscripts flattened to '[25]'; bold/italic lost; only some infobox links kept",
+    "Devanagari broken throughout by spurious spaces: 'महात्मा गां धी', 'प्रमु ख राजनै तिक', 'ने ता थे', 'सू चक', 'सु भाष', 'रं गू न रे डियो'",
+    "Heading text broken too: 'महात्मा गां धी'",
+    "Infobox flattened with labels separated from values and out of order: 'जन्म', 'मौत', then both values; 'शिक्षा', 'पेशा', 'ऊंचाई' labels listed before their values",
+    "Label split across lines: 'राजनै' / 'तिक पार्टी ...'",
+    "Citation markers as plain '[25]' rather than superscripts; bold/italic lost"
+   ]
+  },
+  "hi_wikipedia_mahatma-gandhi-p2": {
+   "ours": [
+    "Both section headings 'प्रारम्भिक जीवन' and 'कम आयु में विवाह' dumped at the very end instead of before their sections",
+    "Infobox flattened into loose paragraphs, not a table ('धर्म हिन्दू धर्म[10] जीवनसाथी कस्तूरबा गाँधी...'), with a fragment 'देवदास' / 'गाँधी[21]' split",
+    "Photo and caption placed before the body text rather than beside the marriage section",
+    "Italics ('कस्तूरबा', 'बा') and links lost",
+    "Section headings 'प्रारम्भिक जीवन' and 'कम आयु में विवाह' dumped at the very end instead of before their sections",
+    "Infobox flattened into run-on paragraphs ('धर्म हिन्दू धर्म[10] जीवनसाथी ...'), not a table, with odd line splits ('देवदास' / 'गाँधी[21]')",
+    "Infobox, signature and photo all placed before the body text that opens the page",
+    "Paragraphs across the subsection merged into one block; italics lost"
+   ],
+   "docling": [
+    "Broken Devanagari throughout, spurious spaces inside words: 'गां धी', 'विशे ष', 'कारागृ ह', 'अहिं सा', 'कस्तू रबा', 'पु तलीबाई', spaces before danda",
+    "Infobox table inserted mid-sentence: 'ब्रिटिश राज' | table | 'के समय काठियावाड़...'",
+    "Photo inserted mid-sentence: 'किशोर दुल्हन को' | image | 'अपने माता पिता के घर...'",
+    "Citations not superscript ('पंसारी [29]'); italics and links lost",
+    "Devanagari broken by spurious spaces inside words throughout: 'गां धी', 'गु जरात', 'पोरबं दर', 'कस्तू रबा', 'वै श्य', 'पु रस्कार', 'कै सर-ए-हिं द मे डल'",
+    "Infobox table inserted mid-sentence, splitting 'ब्रिटिश राज' / 'के समय ...'",
+    "Reference superscripts flattened to '[29]', '[10]'; italic 'कस्तूरबा', 'बा' lost; spaces before danda 'थे ।'",
+    "Caption placed above photo (ok)"
+   ]
+  },
+  "hi_wikipedia_taj-mahal-p1": {
+   "ours": [
+    "All section headings ('वास्तु कला', 'मक़बरा', 'मूल - आधार', 'मुख्य मेहराब') dumped together at the end, none before its section",
+    "Infobox table garbled: caption merged into header 'ताजमहल का संवादात्मक मानचित्रस्थि', rows merged ('इतिहास १६३२-१६५३ स्थल टिप्पणी १७१ मी.', 'मुगल ३० लाख से अधिक (in २००३) UNESCO विश्व धरोहर स्थल सांस्कृतिक i १९८३'), 'अवस्थि ति'",
+    "Infobox placed before the Wikipedia logo and page title; title 'ताजमहल' appears twice",
+    "Lock icon left at the end; bold and italic hatnotes lost",
+    "All section headings ('वास्तु कला', 'मक़बरा', 'मूल - आधार', 'मुख्य मेहराब') dumped together at the end instead of before their sections",
+    "Infobox table garbled: rows merged ('निर्माण समुद्र तल से' / 'इतिहास १६३२-१६५३ स्थल टिप्पणी १७१ मी.', 'वास्तुशैली आंगुतक प्रकार मानदंड मनोनीत'), map caption fused into header 'ताजमहल का संवादात्मक मानचित्रस्थि', 'अवस्थि ति' broken",
+    "Title duplicated ('ताजमहल' at top above infobox and again as page heading); Wikipedia logo in mid-flow; stray lock icon at end",
+    "Bold ('ताजमहल', 'अत्युत्तम मानवी कृति') and italics of hatnotes lost"
+   ],
+   "docling": [
+    "Broken Devanagari throughout, spurious spaces inside words: 'यह ले ख', 'मु गल', 'प्रदे श', 'अजू बों', 'मु ख्य मे हराब', 'आं गु तक'",
+    "Infobox duplicated: given once as a partial table (no UNESCO rows) and again as a full image of the infobox",
+    "Citations not superscript ('[1]'); bold 'ताजमहल', 'अत्युत्तम मानवी कृति' and italic hatnotes lost",
+    "Devanagari broken by spurious spaces inside words throughout: 'यह ले ख', 'प्रदे श', 'मु गल', 'अजू बों', 'मू ल - आधार', 'मु ख्य मे हराब' (also in headings and table)",
+    "Infobox duplicated: once as a text table, then again as a full screenshot image of the infobox; UNESCO rows (प्रकार, मानदंड, मनोनीत) missing from the text table",
+    "Wikipedia logo kept at top as noise",
+    "Bold and hatnote italics lost; references flattened to '[1]'"
+   ]
+  },
+  "hi_wikipedia_taj-mahal-p2": {
+   "ours": [
+    "All six section headings (गुम्बद, छतरियाँ, किरीट कलश, मीनारें, बाहरी अलंकरण, प्रयुक्त सूरा) stranded at the end with no text under them",
+    "All images placed before the text; the video thumbnail is repeated 5 times",
+    "Infobox mostly lost: only the flag and 'क्षेत्र एशिया-प्रशांत' remain; 'संदर्भ सं. २५२ (whc.unesco.org...)' and 'राष्ट्र भारत' missing",
+    "Bold terms (गुम्बद, छतरियों, किरीट पर कलश, विशाल मीनारें, सुलेखन, अंतिम निर्णय) and links lost",
+    "All section headings (गुम्बद, छतरियाँ, किरीट कलश, मीनारें, बाहरी अलंकरण, प्रयुक्त सूरा) stacked at the end, away from their sections",
+    "All figures dumped at the top before the text",
+    "Video thumbnail repeated about five times",
+    "Infobox mostly lost: only flag and 'क्षेत्र एशिया-प्रशांत' remain; 'संदर्भ सं.' and 'राष्ट्र' rows missing",
+    "Bold terms and links lost"
+   ],
+   "docling": [
+    "Devanagari broken by spaces throughout: 'गु म्बद', 'सं गमरमर', 'दे खें बां ये', 'ऊँ चाई', 'बे लनाकार', 'अलं करण', 'प्रयु क्त सू रा'",
+    "Sura list (सूरा 91 – सूर्य, सूरा 112 – विश्वास की शुद्धता, सूरा 89 – उषा) replaced by 'Formula not decoded'",
+    "Stray vowel-sign fragments ('ः') as separate paragraphs",
+    "Paragraph split mid-word around the images ('ऊँ चे' / 'फलकों पर')",
+    "Reference marks not superscripts; bold and links lost",
+    "Infobox kept as an image, not text",
+    "Devanagari broken by spaces inside words throughout: 'गु म्बद', 'सं गमरमर', 'मु ख्य', 'अलं करण', 'प्रयु क्त सू रा'",
+    "Sura list (सूरा 91 – सूर्य, ...) replaced by 'Formula not decoded'",
+    "Stray 'ः' fragments in the flow",
+    "Paragraph split mid-sentence by figures ('ऊँचे' ... 'फलकों पर')",
+    "Bold terms (गुम्बद, छतरियाँ, किरीट पर कलश, विशाल मीनारें) and links lost",
+    "Infobox fragment kept only as an image"
+   ]
+  },
+  "ta_wikipedia_taj-mahal-p1": {
+   "ours": [
+    "Infobox placed before the article title; title heading appears only after the infobox and images",
+    "Heading 'தோற்றம்' moved after all body paragraphs",
+    "Wikipedia logo and tagline dropped between the Shah Jahan image and its caption",
+    "Infobox rows flattened, some merged: 'கட்டிடக்கலைஞர் உஸ்தாத் அகமது லகோரி கட்டிட முறை முகலாயக் கட்டிடக்கலை'",
+    "Stray red-dot image after the map; links and italic '(Taj Mahal)' lost",
+    "Infobox and both portraits placed before the article title and lead",
+    "'தோற்றம்' heading placed after its section text",
+    "Wikipedia logo dropped mid-flow between figures",
+    "Infobox not a table, though label-value pairs kept together on lines",
+    "Stray duplicated map dot image",
+    "Image captions placed after images as plain text, italics lost"
+   ],
+   "docling": [
+    "Main 'தோற்றம்' paragraph and end of the second paragraph rendered as tofu boxes (unreadable text)",
+    "Infobox flattened with labels separated from values and misordered ('அமைவிடம்', 'ஏற்றம்', then their values); 'முகலாயக் கட்டிடக்கலை' partly tofu",
+    "Label 'பார்வையாளர்களின் எண்ணிக்கை' missing before '3 மில்லியன்'",
+    "Infobox title 'தாஜ் மகால்' made into a second heading identical to the page title",
+    "Italic '(Taj Mahal)' and bold lead lost",
+    "Whole first 'தோற்றம்' paragraph and end of second paragraph rendered as tofu boxes (unreadable Tamil)",
+    "Infobox value 'முகலாயக் கட்டிடக்கலை' partly tofu",
+    "Infobox flattened with labels and values out of order ('அமைவிடம்', 'ஏற்றம்', then 'ஆக்ரா...', '171 மீ')",
+    "Infobox title 'தாஜ் மகால்' and 'யுனெஸ்கோ...' turned into headings; 'பார்வையாளர்களின் எண்ணிக்கை' label lost"
+   ]
+  },
+  "ta_wikipedia_taj-mahal-p2": {
+   "ours": [
+    "Headings 'கட்டிடக்கலை' and 'சமாதி' moved to the very end, after all body text",
+    "Both figures dumped at the top before any text",
+    "Links lost",
+    "Carry-over caption 'மேற்கு உத்தரப் பிரதேசத்தில் அமைவிடம்' dropped",
+    "Headings 'கட்டிடக்கலை' and 'சமாதி' dumped at the very end",
+    "Both figures placed at the top before any text",
+    "Infobox caption 'மேற்கு உத்தரப் பிரதேசத்தில் அமைவிடம்' missing",
+    "Caption styling lost (plain paragraphs)"
+   ],
+   "docling": [
+    "H2 heading 'கட்டிடக்கலை' missing",
+    "Humayun's tomb figure inserted mid-sentence, splitting the paragraph after 'இச் சிறிய'",
+    "Links lost",
+    "Carry-over caption 'மேற்கு உத்தரப் பிரதேசத்தில் அமைவிடம்' dropped",
+    "Section heading 'கட்டிடக்கலை' missing",
+    "Infobox caption 'மேற்கு உத்தரப் பிரதேசத்தில் அமைவிடம்' missing",
+    "Humayun figure inserted mid-sentence, splitting the paragraph after 'இச் சிறிய'"
+   ]
+  }
+ }
+}

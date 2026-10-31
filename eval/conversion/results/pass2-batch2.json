@@ -1,0 +1,50 @@
+{
+  "en_book_darwin-origin-of-species-ch1-p2": {
+    "reading_order": "B", "headings": "na", "lists": "na", "tables": "na", "figures": "na",
+    "inline_formatting": "tie", "completeness": "B", "noise": "A", "overall": "B",
+    "issues_A": ["Drops almost the whole page: only 'ment or modification.' and the last paragraph 'Indefinite variability is ...' survive; the long 'As far as I am able to judge ...' paragraph and the opening 'domesticated animals are still capable of rapid improve-' are missing", "Starts mid-word with 'ment or modification.'"],
+    "issues_B": ["Running header kept in flow as 'VARIATION UNDER DOMESTICATION. 4' (and the page number is wrong: page shows 7)", "No paragraph breaks: all three paragraphs merged into one block", "Hyphenation leftovers: 'improve- ment', 'condi- tions', 'prob- ably', 'end- less'", "OCR errors kept: 'regard te', 'climate, ete.', 'case os plants', opening quote doubled '“‘ Variation'"]
+  },
+  "en_brochure_nasa-msl-curiosity-factsheet-p1": {
+    "reading_order": "A", "headings": "tie", "lists": "na", "tables": "na", "figures": "A",
+    "inline_formatting": "A", "completeness": "A", "noise": "A", "overall": "A",
+    "issues_A": ["Adds text that is not on this page: last paragraph continues past 'Selection of Gale Crater fol-' with '...followed consideration of more than 30 Martian locations ...' (spill from next page)", "Em dashes turned into hyphens: 'laboratory - the rover Curiosity - at Gale Crater'", "Both figures grouped after the left column, Sky Crane image placed before 'Mission Overview' rather than beside it (acceptable)", "Rotated 'NASAfacts' wordmark dropped (fine), NASA logo kept at end"],
+    "issues_B": ["Sky Crane caption 'Curiosity touches down on Mars after being lowered by its Sky Crane.' separated from its image and placed directly above the Gale Crater image, so it reads as the wrong caption", "Captions not italic, rendered as body paragraphs", "NASA logo duplicated twice and the rotated 'NASAfacts' wordmark rendered as a huge image at the end", "Hyphenation leftovers: 'environ- ment', 'ana- lyzes', 'Sta- tion', 'it- self', 'touch- down'", "Page ends with dangling 'Selection of Gale Crater fol-'"]
+  },
+  "en_form_irs-1040-2025-p2": {
+    "reading_order": "A", "headings": "tie", "lists": "A", "tables": "A", "figures": "na",
+    "inline_formatting": "A", "completeness": "A", "noise": "A", "overall": "A",
+    "issues_A": ["Entire page delivered as a single image: no reflowable or selectable text, no real headings or table markup", "Not a reflow at all, but every line, box and label is legible and in place"],
+    "issues_B": ["Form shredded into one fragment per paragraph: '11b', 'Amount from line 11a ...', each dot leader rendered as its own '.' line (dozens per row), spanning 15 screens", "Section labels split into broken headings: 'Tax and' (plain) then 'Credits' (heading); 'Paid' / 'Preparer' / 'Use Only' as three headings; 'Spouse:' made a heading", "No table structure: line numbers, labels and amount boxes disconnected; checkboxes lost", "Sidebar 'Standard deduction for— • Single or / Married filing / separately, / $15,750' broken one line per paragraph instead of a list", "Bold lost ('taxable income', 'total tax', 'overpaid'); running header/footer 'Form 1040 (2025)' kept"]
+  },
+  "en_paper_llama-two-column-p2": {
+    "reading_order": "A", "headings": "tie", "lists": "na", "tables": "tie", "figures": "A",
+    "inline_formatting": "B", "completeness": "B", "noise": "A", "overall": "A",
+    "issues_A": ["Missing the whole first paragraph 'Overall, our entire training dataset contains roughly 1.4T tokens ... two epochs.'", "Fraction garbled: 'a dimension of 23 4d instead of 4d' (should be 2/3 4d)", "Exponents flattened: '3.0e-4' instead of 3.0e^-4", "Bold run-in heads lost ('Pre-normalization [GPT3].', table and figure caption bold lost); citation links lost", "Footnote marker flattened 'xformers library, 2 is inspired'; merged word 'fromDao et al.'", "'2, 000 warmup' split number"],
+    "issues_B": ["Figure 1 lost: chart exploded into stray text ('0 200 400 ... Billion of tokens', 'Training loss', '1.5' ... '2.2' on separate lines, 'LLaMA 7B LLaMA 13B ...'), no plot image", "Fraction badly garbled: '2 3⁴dinstead of⁴das in PaLM.' set as a small separate line", "Hyphenation leftovers throughout: 'dur- ing', 'ap- proximately', 'architec- ture', 're- place', 'opti- mizer', 'imple- mentation', 'checkpoint- ing'", "Paragraphs merged ('The details of the hyper-parameters...' joined to Rotary paragraph; 'To further improve...' joined)", "Exponents flattened '3.0e−4'; bold run-in heads lost; '2https://github.com/...' footnote merged"]
+  },
+  "en_scanned_naca-report-1381-image-only-p1": {
+    "reading_order": "A", "headings": "A", "lists": "na", "tables": "na", "figures": "na",
+    "inline_formatting": "A", "completeness": "A", "noise": "tie", "overall": "A",
+    "issues_A": ["Raw LaTeX left in title: 'SPEEDS $$^1$$' instead of superscript 1", "Summary italics lost", "Hyphenation leftovers: 'con- stant', 'rela- tively', 'diffi- cult', 're- entry', 'there- fore', 'con- siderable', 'how- ever', 'heat- ing', 'them- selves'", "Footnote '1 Supersedes NACA Technical Note 4047 ...' placed mid-text where the column breaks, mid-sentence ('which, com-' / footnote / 'bined with...')"],
+    "issues_B": ["Order scrambled: SUMMARY placed before the REPORT 1381 title; second column 'bined with the high surface shear...' placed before the rest of the Summary; Introduction paragraphs out of order", "Title truncated and garbled: 'BALLISTIC MISSILES ENTERING T E ETE SE'", "Garbled/missing text: 'and drnd d s pfd n flight-path angle', 'which a d nd ee in the booster', 'decelerated to relaconvective heating is minimized by employing shapes with a delivered to...', 'high preşsure'", "Sentences spliced across lines: 'Wagner's results of this analysis ... them-' / 'approach, precedes the heating analysis. The generalized selves and...'", "Merged words 'curious nding', 'isindependent'; italics lost; 'EGGERs' casing"]
+  },
+  "en_spec_rfc9562-uuid-p2": {
+    "reading_order": "A", "headings": "tie", "lists": "na", "tables": "A", "figures": "A",
+    "inline_formatting": "tie", "completeness": "A", "noise": "A", "overall": "A",
+    "issues_A": ["Code figure lines joined into one long line and cut off at the right edge ('00000000-0000-4000-A000-00...'), last lines including 'xxxxxxxx-xxxx-Mxxx-Nxxx-xxxxxxxxxxxx' not visible", "Figure caption 'Figure 5: UUIDv4 Variant Examples' missing", "Table caption moved above the table and not italic; 'Table 1' link lost"],
+    "issues_B": ["Table moved below the two following paragraphs, so 'follows the table' text precedes the table", "Code figure rendered as a wrapped plain paragraph, not a code block; lines merged and broken mid-UUID ('00000000-0000-' / '4000-A000-...')", "Figure caption placed above the code with the table caption stacked right before it", "Running footer kept: 'Davis, et al. Standards Track Page 11'", "Hyphenation kept 'sub- typing'; 'Table 1' link lost"]
+  },
+  "hi_wikipedia_mahatma-gandhi-p2": {
+    "reading_order": "A", "headings": "A", "lists": "na", "tables": "A", "figures": "tie",
+    "inline_formatting": "B", "completeness": "B", "noise": "tie", "overall": "B",
+    "issues_A": ["Devanagari broken by spurious spaces inside words throughout: 'गां धी', 'गु जरात', 'पोरबं दर', 'कस्तू रबा', 'वै श्य', 'पु रस्कार', 'कै सर-ए-हिं द मे डल'", "Infobox table inserted mid-sentence, splitting 'ब्रिटिश राज' / 'के समय ...'", "Reference superscripts flattened to '[29]', '[10]'; italic 'कस्तूरबा', 'बा' lost; spaces before danda 'थे ।'", "Caption placed above photo (ok)"],
+    "issues_B": ["Section headings 'प्रारम्भिक जीवन' and 'कम आयु में विवाह' dumped at the very end instead of before their sections", "Infobox flattened into run-on paragraphs ('धर्म हिन्दू धर्म[10] जीवनसाथी ...'), not a table, with odd line splits ('देवदास' / 'गाँधी[21]')", "Infobox, signature and photo all placed before the body text that opens the page", "Paragraphs across the subsection merged into one block; italics lost"]
+  },
+  "hi_wikipedia_taj-mahal-p1": {
+    "reading_order": "B", "headings": "B", "lists": "na", "tables": "B", "figures": "tie",
+    "inline_formatting": "tie", "completeness": "A", "noise": "B", "overall": "A",
+    "issues_A": ["All section headings ('वास्तु कला', 'मक़बरा', 'मूल - आधार', 'मुख्य मेहराब') dumped together at the end instead of before their sections", "Infobox table garbled: rows merged ('निर्माण समुद्र तल से' / 'इतिहास १६३२-१६५३ स्थल टिप्पणी १७१ मी.', 'वास्तुशैली आंगुतक प्रकार मानदंड मनोनीत'), map caption fused into header 'ताजमहल का संवादात्मक मानचित्रस्थि', 'अवस्थि ति' broken", "Title duplicated ('ताजमहल' at top above infobox and again as page heading); Wikipedia logo in mid-flow; stray lock icon at end", "Bold ('ताजमहल', 'अत्युत्तम मानवी कृति') and italics of hatnotes lost"],
+    "issues_B": ["Devanagari broken by spurious spaces inside words throughout: 'यह ले ख', 'प्रदे श', 'मु गल', 'अजू बों', 'मू ल - आधार', 'मु ख्य मे हराब' (also in headings and table)", "Infobox duplicated: once as a text table, then again as a full screenshot image of the infobox; UNESCO rows (प्रकार, मानदंड, मनोनीत) missing from the text table", "Wikipedia logo kept at top as noise", "Bold and hatnote italics lost; references flattened to '[1]'"]
+  }
+}

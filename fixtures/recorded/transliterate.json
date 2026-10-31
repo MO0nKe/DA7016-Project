@@ -1,0 +1,61 @@
+{
+  "check": "transliterate",
+  "recorded_at": "2026-10-20T02:00:50+0530",
+  "request": {
+    "method": "POST",
+    "url": "https://api.bodhan.ai/v1/chat/completions",
+    "body": {
+      "model": "indic-transliterate",
+      "messages": [
+        {
+          "role": "user",
+          "content": "बैठक अगले सप्ताह तक स्थगित कर दी गई है।"
+        }
+      ],
+      "target_language": "hi",
+      "script": "roman"
+    }
+  },
+  "response": {
+    "status": 200,
+    "elapsed_s": 0.33,
+    "headers": {
+      "content-type": "application/json",
+      "x-ratelimit-api_key-limit-max_parallel_requests": "10",
+      "x-ratelimit-api_key-limit-requests": "120",
+      "x-ratelimit-api_key-remaining-max_parallel_requests": "9",
+      "x-ratelimit-api_key-remaining-requests": "113"
+    },
+    "body": {
+      "id": "20261019_78928982-8c13-4cbe-bc5a-e717571b8d31",
+      "created": 1792441850,
+      "model": "indic-transliterate",
+      "object": "chat.completion",
+      "system_fingerprint": "vllm-0.27.1-9be2c277",
+      "choices": [
+        {
+          "finish_reason": "stop",
+          "index": 0,
+          "message": {
+            "content": "Baithak agle saptah tak sthagit kar di gayi hai.",
+            "role": "assistant",
+            "provider_specific_fields": {
+              "reasoning": null,
+              "refusal": null
+            }
+          },
+          "provider_specific_fields": {
+            "token_ids": null,
+            "stop_reason": 106,
+            "routed_experts": null
+          }
+        }
+      ],
+      "usage": {
+        "completion_tokens": 18,
+        "prompt_tokens": 33,
+        "total_tokens": 51
+      }
+    }
+  }
+}

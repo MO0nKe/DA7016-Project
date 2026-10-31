@@ -1,0 +1,342 @@
+{
+ "bn_wikipedia_taj-mahal-p1": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "bn_wikipedia_taj-mahal-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_book_darwin-origin-of-species-ch1-p1": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "en_book_darwin-origin-of-species-ch1-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_brochure_nasa-msl-curiosity-factsheet-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_brochure_nasa-msl-curiosity-factsheet-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_financial_federal-reserve-2023-p1": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "en_financial_federal-reserve-2023-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_form_irs-1040-2025-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_form_irs-1040-2025-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_govreport_economic-report-president-2024-ch1-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_govreport_economic-report-president-2024-ch1-p2": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "en_paper_llama-two-column-p1": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "en_paper_llama-two-column-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_paper_mamba-equations-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_paper_mamba-equations-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_scanned_naca-report-1381-image-only-p1": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "en_scanned_naca-report-1381-image-only-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_scanned_naca-report-1381-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_scanned_naca-report-1381-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_slides_nist-pqc-road-ahead-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_slides_nist-pqc-road-ahead-p2": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "en_spec_rfc9562-uuid-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_spec_rfc9562-uuid-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_standard_nist-fips197-aes-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_standard_nist-fips197-aes-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "en_wikipedia_monsoon-p1": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "en_wikipedia_monsoon-p2": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "hi_wikipedia_mahatma-gandhi-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "hi_wikipedia_mahatma-gandhi-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "hi_wikipedia_taj-mahal-p1": {
+  "pass1": {
+   "A": "docling",
+   "B": "ours"
+  },
+  "pass2": {
+   "A": "ours",
+   "B": "docling"
+  }
+ },
+ "hi_wikipedia_taj-mahal-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "ta_wikipedia_taj-mahal-p1": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ },
+ "ta_wikipedia_taj-mahal-p2": {
+  "pass1": {
+   "A": "ours",
+   "B": "docling"
+  },
+  "pass2": {
+   "A": "docling",
+   "B": "ours"
+  }
+ }
+}

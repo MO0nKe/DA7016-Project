@@ -1,0 +1,56 @@
+{
+  "en_financial_federal-reserve-2023-p2": {
+    "reading_order": "A", "headings": "A", "lists": "na", "tables": "A", "figures": "na",
+    "inline_formatting": "tie", "completeness": "A", "noise": "A", "overall": "A",
+    "issues_A": ["Row labels merged/garbled: 'Loans: institutions' and 'Loans to depository Other loans'", "Two rows merged: 'Change in actuarial (losses) gains related to benefit plans Total other comprehensive (loss) income' with both values in one cell", "Every row label bolded, so section labels (Loans:, System Open Market Account:) no longer stand out", "Indentation hierarchy of line items lost"],
+    "issues_B": ["Table completely destroyed: all labels listed first, then all 2023 values, then all 2022 values; numbers cannot be matched to rows", "Lone '$' paragraphs scattered among the numbers", "'(in millions)' lost", "Row label split: 'remittances to' / 'the Treasury'", "Footer note 'The accompanying notes are an integral part...' rendered as a heading", "Row labels like 'Loans:' and 'System Open Market Account:' turned into headings"]
+  },
+  "en_govreport_economic-report-president-2024-ch1-p1": {
+    "reading_order": "tie", "headings": "tie", "lists": "na", "tables": "na", "figures": "tie",
+    "inline_formatting": "tie", "completeness": "B", "noise": "A", "overall": "B",
+    "issues_A": ["Em-dashes lost: 'markets-loosely speaking', 'searchers-on working families', 'outcomes-such as'", "Words merged: 'BidenHarris Administration'", "Text not on the page appended to the last paragraph: 'U-6 starts with the standard unemployment rate as a base...'", "Italic dedication rendered as plain text", "Citation links (Spriggs 2015, Manning 2003) lost"],
+    "issues_B": ["Hyphenation artefacts left: 'work- ers'', 'participa- tion'", "'(Spriggs 2015)' split into its own paragraph", "GPO authentication logo left in the flow", "Italic dedication rendered as plain text", "Citation links lost"]
+  },
+  "en_paper_llama-two-column-p1": {
+    "reading_order": "A", "headings": "A", "lists": "na", "tables": "na", "figures": "na",
+    "inline_formatting": "tie", "completeness": "A", "noise": "B", "overall": "A",
+    "issues_A": ["Author lines split, last two rendered as headings ('Eric Hambro, ...', 'Edouard Grave*, Guillaume Lample*')", "Hyphenation artefacts throughout: 'founda- tion', 'mas- sive', 'per- form', 'avail- able', 'mod- els', 'Hoff- mann', 'lan- guage'", "Footnotes dropped into the middle of the flow between the two columns", "Rotated arXiv side stamp kept as a large image at the end", "Paragraph 'The objective of the scaling laws...' merged into the previous paragraph", "Italics ('training', 'inference', 'LLaMA') and citation links lost"],
+    "issues_B": ["Reading order broken: right column ('performance, a smaller one trained longer...') placed before the Abstract and Introduction", "All author names rendered as a large heading that outranks the title", "Text from the next page appended: 'Overall, our entire training dataset contains roughly 1.4T tokens...'", "Merged words: 'fromHoffmann et al.', 'LLaMA65B'", "Footnote marker detached: 'research community 1 .'", "Italics and citation links lost"]
+  },
+  "en_scanned_naca-report-1381-image-only-p2": {
+    "reading_order": "B", "headings": "tie", "lists": "A", "tables": "na", "figures": "B",
+    "inline_formatting": "A", "completeness": "B", "noise": "A", "overall": "B",
+    "issues_A": ["Every equation replaced by a 'Formula not decoded' placeholder (eqs 1-7 and the inline ones)", "Text 'Noting that ... we let Z=V²' missing", "Symbol list garbled: 'm mass density of the air', 'mass of the body, slugs' detached, a stray bullet 'ρ acceleration of gravity', stray '0'", "'where' rendered as a heading", "Order scrambled: 'minor extent, the acceleration of gravity...' before 'In general, the drag coefficient...'", "OCR errors: 'Is a rotating sphere', 'radlus', 'glven', 'permisstble', 'st least', 'acceleratlon'", "Lines broken into separate paragraphs ('Consider a body...' / 'great height...' / 'angle of approach...')", "Footnotes dropped into the middle of the flow"],
+    "issues_B": ["Raw LaTeX left unrendered in the text: '$m$', '$\\theta$', '$C_D$', '$^2$', '$\\blacklozenge$'", "Symbol list run together into a single bullet starting with a duplicate 'where'", "Numbered list 1-4 run together into one bullet with fragments 'nplined case.' and 'lation'", "Stray fragment '(See Appendix A for compres'", "Footnote text duplicated: 'permissible.' and 'under consideration, at least as long as the total drag is largest.'", "Equation crop includes a stray piece of 'this relation' text", "Equations kept only as images (acceptable), but some crops are cut off at the edges"]
+  },
+  "en_scanned_naca-report-1381-p2": {
+    "reading_order": "A", "headings": "A", "lists": "A", "tables": "na", "figures": "A",
+    "inline_formatting": "A", "completeness": "B", "noise": "tie", "overall": "tie",
+    "issues_A": ["Large-scale duplication: text layer and OCR both emitted, e.g. 'Consider a body ... the great height. If, at any altitude y...', 'In general, the drag coefficient varies ... In general, the drag coefficient varies...', 'and equation (3) becomes ... and equation (3) becomes...'", "Stray scan junk at top/bottom: ':[.', '\"i', '_'!', '-.', '.'", "All equations replaced by 'Formula not decoded'", "'relation' turned into a bogus list item 5", "OCR garbage in duplicates: 'preS_ure drag', 'gravRy', 'lO0,O00-foot ineremm', 'whičh'", "'angle of approach...' placed before 'Consider a body...'"],
+    "issues_B": ["Running sketch (figure) missing entirely", "Equations turned into OCR junk text: 'd__ay22dV , C_poA =____=._g±_ e-_V _ clt a_', 'd._Z Cop_____e-a,Z+2g._O'", "Bogus nested bullet lists created from equation fragments ('Z_e.,', '2gy+const 1', '1 (6) •')", "Right column's 'Equations (1) then reduce to the single equation' moved before the parametric equations", "'MOTION OF THE BODY' not a heading", "Numbered list run together: 'simplified case: 1. The body descends vertically. 2. ...'", "Stray junk ':[.', '\"i', '_'!', ';'", "OCR errors: 'be _-ritten s', 'whiSh', 'yidds', 'angle of approach is 0'"]
+  },
+  "en_slides_nist-pqc-road-ahead-p2": {
+    "reading_order": "tie", "headings": "tie", "lists": "A", "tables": "na", "figures": "tie",
+    "inline_formatting": "tie", "completeness": "A", "noise": "tie", "overall": "A",
+    "issues_A": ["Superscript lost: '4th Round'", "Slide footer 'March 2025' left in the flow", "NIST header logo kept as an image"],
+    "issues_B": ["Three-level nesting flattened into one flat list of '·' items", "Superscript lost and split: '4 th Round'", "Stray 'NIST' text paragraph after the logo", "NIST header logo kept as an image"]
+  },
+  "en_wikipedia_monsoon-p1": {
+    "reading_order": "B", "headings": "B", "lists": "na", "tables": "na", "figures": "tie",
+    "inline_formatting": "A", "completeness": "A", "noise": "A", "overall": "tie",
+    "issues_A": ["Headings 'Etymology', 'History', 'Asian monsoon' all stacked at the end instead of before their sections", "All three images with captions placed before the Wikipedia logo and the title", "Bold 'monsoon', italics ('monsoon', 'monção', 'mawsim') and links lost"],
+    "issues_B": ["Text from the next page pulled in and merged into one huge paragraph ('...became strong around 8 million years ago ... The location of the EASM shifted multiple times...')", "Etymology sentence scrambled by bidi handling: 'monção, \"but \"season\"), (mawsim, موسم ultimately from Arabic partly via early modern Dutch'", "Merged words / lost dashes: 'longduration', '1520 million', 'DansgaardOeschger'", "Paragraph split mid-sentence: 'collision of the Indian' / 'subcontinent'", "Stray 'WIKIPEDIA' link before the logo", "Images moved to the end of the page", "Citations not superscript; bold, italics and links lost"]
+  },
+  "en_wikipedia_monsoon-p2": {
+    "reading_order": "A", "headings": "na", "lists": "na", "tables": "na", "figures": "na",
+    "inline_formatting": "A", "completeness": "A", "noise": "tie", "overall": "A",
+    "issues_A": ["Spurious spaces after line-break hyphens/dashes: 'long- duration', '15– 20 million', 'Dansgaard– Oeschger'", "Links lost"],
+    "issues_B": ["Output is empty: none of the page's text is present (it was pulled into the previous page)"]
+  },
+  "hi_wikipedia_taj-mahal-p2": {
+    "reading_order": "A", "headings": "A", "lists": "B", "tables": "A", "figures": "A",
+    "inline_formatting": "B", "completeness": "B", "noise": "tie", "overall": "B",
+    "issues_A": ["Devanagari broken by spaces inside words throughout: 'गु म्बद', 'सं गमरमर', 'मु ख्य', 'अलं करण', 'प्रयु क्त सू रा'", "Sura list (सूरा 91 – सूर्य, ...) replaced by 'Formula not decoded'", "Stray 'ः' fragments in the flow", "Paragraph split mid-sentence by figures ('ऊँचे' ... 'फलकों पर')", "Bold terms (गुम्बद, छतरियाँ, किरीट पर कलश, विशाल मीनारें) and links lost", "Infobox fragment kept only as an image"],
+    "issues_B": ["All section headings (गुम्बद, छतरियाँ, किरीट कलश, मीनारें, बाहरी अलंकरण, प्रयुक्त सूरा) stacked at the end, away from their sections", "All figures dumped at the top before the text", "Video thumbnail repeated about five times", "Infobox mostly lost: only flag and 'क्षेत्र एशिया-प्रशांत' remain; 'संदर्भ सं.' and 'राष्ट्र' rows missing", "Bold terms and links lost"]
+  }
+}

@@ -1,0 +1,68 @@
+/* Shared by the studio view and the PDF export: one source of truth for page rendering. */
+.ds-page {
+  position: relative;
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+.ds-block, .ds-cell {
+  position: absolute;
+  box-sizing: border-box;
+  line-height: 1.22;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  color: #111;
+}
+.ds-cell { display: flex; align-items: center; padding: 0 1pt; overflow-wrap: normal; } /* a number shrinks, never splits */
+.ds-cell > span { width: 100%; }
+/* A translated section's patch of the text-free page (render.crop_css): under every section's text, 0.75pt (1px,
+   inside fit.js's tolerance) wider all round than its box. */
+.ds-page { isolation: isolate; }
+[data-status="translated"]::before { content: ""; position: absolute; inset: -0.75pt; z-index: -1; background: var(--patch); }
+[data-overflow] { overflow: hidden; } /* too long even at the smallest size (fit.js): cut at its box */
+/* The space a picture takes beside some lines (an empty one above it, so it starts where the picture does). */
+.ds-wrap-left { float: left; clear: left; }
+.ds-wrap-right { float: right; clear: right; }
+.ds-cell.ds-top { align-items: flex-start; }
+/* Inline formulas drawn from crops of the original: part of the line (the studio's CSS reset makes images blocks). */
+.ds-maths { display: inline; max-width: none; }
+/* Footnote and citation markers: one small raised run, like the original's "[11]". */
+.ds-ref { font-size: 0.72em; line-height: 0; vertical-align: 0.42em; }
+.ds-table-html table { border-collapse: collapse; width: 100%; height: 100%; }
+.ds-table-html th, .ds-table-html td { border: 0.6pt solid #444; padding: 1pt 3pt; vertical-align: middle; }
+/* Script-complete fallback stacks; the browser falls back per character.
+   Source text: a block may put the PDF's own embedded font in front (font-family: "pdf-…",
+   var(--ds-serif-stack)). Latin then comes from fonts metric-compatible with Times / Arial / Courier
+   (Liberation, or the identical Tinos / Arimo / Cousine), so it takes the same width as in most PDFs.
+   Translated text ([lang]) is drawn in one matched family instead: Noto for Latin, digits and
+   punctuation, and the same family's Noto font for its script, so a line never switches design. */
+.ds-page { --ds-serif-scripts: "Noto Serif Devanagari", "Noto Serif Bengali", "Noto Serif Tamil",
+  "Noto Serif Telugu", "Noto Serif Kannada", "Noto Serif Malayalam", "Noto Serif Gujarati",
+  "Noto Serif Gurmukhi", "Noto Sans Oriya", "Noto Nastaliq Urdu", "Noto Sans Arabic", "Noto Sans Ol Chiki",
+  "Noto Sans Meetei Mayek";
+  --ds-sans-scripts: "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Tamil",
+  "Noto Sans Telugu", "Noto Sans Kannada", "Noto Sans Malayalam", "Noto Sans Gujarati", "Noto Sans Gurmukhi",
+  "Noto Sans Oriya", "Noto Sans Arabic", "Noto Nastaliq Urdu", "Noto Sans Ol Chiki", "Noto Sans Meetei Mayek";
+  --ds-serif-stack: "Liberation Serif", Tinos, "Times New Roman", "Noto Serif", var(--ds-serif-scripts), serif;
+  --ds-sans-stack: "Liberation Sans", Arimo, Arial, Helvetica, "Noto Sans", var(--ds-sans-scripts), sans-serif;
+  --ds-mono-stack: "Liberation Mono", Cousine, "Courier New", "Noto Sans Mono", monospace; }
+.ds-serif { font-family: var(--ds-serif-stack); }
+.ds-sans { font-family: var(--ds-sans-stack); }
+.ds-mono { font-family: var(--ds-mono-stack); }
+.ds-serif[lang] { font-family: "Noto Serif", var(--ds-serif-scripts), serif; }
+.ds-sans[lang] { font-family: "Noto Sans", var(--ds-sans-scripts), sans-serif; }
+.ds-mono[lang] { font-family: "Noto Sans Mono", var(--ds-sans-scripts), monospace; }
+/* Untranslated figure text (axis labels, legends): its original pixels are in the background, so the block
+   is only there to be picked, not seen. */
+.ds-drawn, .ds-drawn * { color: transparent !important; }  /* coloured runs too: their pixels are in the image */
+.ds-drawn img { visibility: hidden; }  /* formula crops too: the page image already shows them */
+.ds-bold { font-weight: 700; }
+.ds-italic { font-style: italic; }
+/* Hanging indent: each item's bullet or number sits in a fixed box, wrapped lines start under its text. */
+.ds-hanging .ds-item { padding-left: 1.2em; text-indent: -1.2em; }
+.ds-hanging .ds-mark { display: inline-block; min-width: 1.2em; text-indent: 0; }
+@media print {
+  .ds-page { break-after: page; }
+  .ds-page:last-child { break-after: auto; }
+}

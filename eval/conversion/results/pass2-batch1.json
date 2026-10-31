@@ -1,0 +1,124 @@
+{
+  "bn_wikipedia_taj-mahal-p1": {
+    "reading_order": "B", "headings": "B", "lists": "na", "tables": "B", "figures": "tie",
+    "inline_formatting": "tie", "completeness": "A", "noise": "tie", "overall": "B",
+    "issues_A": [
+      "Section heading 'ভূমিকা' placed at the very end, after the Bernier quote, instead of before 'তাজমহল বিশ্বের অপূর্ব সুন্দর...'",
+      "Infobox table garbled: rows merged into wrong cells, e.g. 'অবস্থান স্থানাঙ্ক' | 'আগ্রা, ভারত ২৭°১০′৩০″ উত্তর', 'উচ্চতা ... নির্মিত স্থপতি' in one cell, 'ইউনেস্ | স্কো | বিশ্ব ঐতিহ্যবাহী স্থান সাংস্কৃতিক'",
+      "UNESCO sub-header lost as a header row",
+      "India flag image dropped at the end after the heading",
+      "Infobox and Wikipedia logo placed before the article title",
+      "Some broken Bengali spacing: 'দক্ষি ণভাগ', 'সম্মি লন', 'উদ্দে শ্যে', 'ফ্রান্সি স'",
+      "Links and italics (e.g. 'তাজ', 'Agra') lost; quote not set off as a blockquote"
+    ],
+    "issues_B": [
+      "First sentence scrambled by bidi: 'প্রদেশে উত্তর ভারতের )تاج محل তাজমহল (হিন্দি: ...' text order wrong",
+      "Widespread broken Bengali joins with spurious spaces: 'মু ঘল', 'আরজু মান্দ', 'অপূ র্ব', 'সু ন্দর', 'মৃ ত্যুতে', 'পা ঁচ', 'স্থানাঙ্ক... পূ র্ব'",
+      "Infobox title 'তাজমহল' repeated as a heading after the body (acceptable) but caption italicised above image",
+      "Links and italics lost; quote not set off as a blockquote"
+    ]
+  },
+  "en_book_darwin-origin-of-species-ch1-p1": {
+    "reading_order": "tie", "headings": "B", "lists": "na", "tables": "na", "figures": "na",
+    "inline_formatting": "tie", "completeness": "A", "noise": "B", "overall": "A",
+    "issues_A": [
+      "Running header kept in flow: '6 VARIATION UNDER DOMESTICATION.'",
+      "'VARIATION UNDER DOMESTICATION.' and 'CAUSES OF VARIABILITY.' rendered as plain paragraphs, not headings",
+      "Line-end hyphens left in text: 'gen- erally', 'Domes- tic', 'con- ditions', 'gener- ations', 'ceas- ing'"
+    ],
+    "issues_B": [
+      "Large block of text not on this page appended after 'our oldest' ('domesticated animals are still capable of rapid improve- As far as I am able to judge...' through '...nature of the sap.')",
+      "Garbled text: 'during several generati nt can n ent tn nt cnt cnr variation' replaces 'generations to new conditions to cause any great amount of variation'",
+      "Other errors: 'SpeciesOrigin' (lost dash), 'Character of_Domes-tic', 'somē probability', 'regard te the extent'",
+      "Stray page number '6' left at top"
+    ]
+  },
+  "en_form_irs-1040-2025-p1": {
+    "reading_order": "B", "headings": "B", "lists": "tie", "tables": "tie", "figures": "na",
+    "inline_formatting": "tie", "completeness": "A", "noise": "tie", "overall": "A",
+    "issues_A": [
+      "Hundreds of dot-leader fragments ('.') each on its own line through the income section",
+      "'Income' heading and its side notes ('Attach Form(s) W-2 here...', 'Attach Sch. B if required.') placed at the very end after line 11a",
+      "Digital Assets question split: first half before 'Dependents', 'exchange, or otherwise dispose...' inside the dependents block; 'Yes No' lands between 'Dependent 3' and 'Dependent 4'",
+      "Income lines turned into spurious bullet items ('• 1 a Total amount...', '• b Taxable amount .') with line-box numbers ('1a', '1b') as separate paragraphs",
+      "Dependents grid not a table; per-dependent checkboxes repeated as loose lines",
+      "Field labels on one line merged: 'Your first name and middle initial Last name Your social security number'",
+      "Filing-status options interleaved with Presidential Election Campaign text"
+    ],
+    "issues_B": [
+      "Header block missing: 'Department of the Treasury—Internal Revenue Service', '2025', 'OMB No. 1545-0074', 'For the year Jan. 1–Dec. 31, 2025...', 'Filed pursuant to section 301.9100-2', 'Combat zone', 'Deceased ... Spouse ...' not present",
+      "Stray rotated 'Form' fragment under the title",
+      "Every printed line becomes its own paragraph: 'If more / than four / dependents, / see instructions / and check / here .', 'Full-time / student', 'Child tax / credit'",
+      "Hundreds of dot-leader fragments ('.') on their own lines",
+      "Line numbers lost or misplaced: '8', '9', '10' missing before their descriptions, '11a' duplicated; '7b Check if:' missing",
+      "Dependents grid not a table",
+      "Page footer kept: 'For Disclosure, Privacy Act...', 'Cat. No. 11320B', 'Form 1040 (2025) Created 9/5/25'"
+    ]
+  },
+  "en_govreport_economic-report-president-2024-ch1-p2": {
+    "reading_order": "B", "headings": "na", "lists": "na", "tables": "na", "figures": "B",
+    "inline_formatting": "tie", "completeness": "A", "noise": "B", "overall": "A",
+    "issues_A": [
+      "Stray cropped fragment of the chart (no axes or legend) at the top",
+      "Whole page (figure plus all body text) embedded as an image, so the body text is shown twice",
+      "Page footer '26 | Chapter 1' left in flow",
+      "Three body paragraphs merged into one; hyphenation left: 'condi- tions', 'individu- als'",
+      "Chart legend and caption duplicated as text after the body: 'u*-u V/U Quits rate U-6 (negated) Prime-age EPOP', 'Figure 1-i. Measures of Labor Market Tightness', 'Council of Economic Advisers Sources...'"
+    ],
+    "issues_B": [
+      "Entire first paragraph missing ('U-6 starts with the standard unemployment rate as a base... or other economic reasons.')",
+      "Figure caption/source notes only inside the image, not as text (acceptable)"
+    ]
+  },
+  "en_paper_mamba-equations-p2": {
+    "reading_order": "tie", "headings": "tie", "lists": "na", "tables": "na", "figures": "B",
+    "inline_formatting": "tie", "completeness": "B", "noise": "A", "overall": "B",
+    "issues_A": [
+      "All display equations missing, replaced by 'Formula not decoded' placeholders (equations 1a-3b and 4)",
+      "Figure title 'Selective State Space Model' promoted to a document heading",
+      "Overbars lost in inline math: '(A, B)' for (Ā, B̄), 'A = fA(Δ, A)'",
+      "Garbled inline math: 'x (t ) ∈ R ↦ →y(t) ∈ R', 'h(t) ∈ RN' (superscript N lost), '↦ → (A, B, C)'",
+      "Bold run-in paragraph heads ('Discretization.', 'Computation.', 'Linear Time Invariance (LTI).') and bold 'linear recurrence'/'global convolution' lost; citation links lost"
+    ],
+    "issues_B": [
+      "Stray figure labels extracted as separate lines after the figure: 'Bt', 'ht', 'xt', 'ht−1', 'yt', 'A', 'Ct', 'Δt'",
+      "Figure caption duplicated (in image and again as text)",
+      "Equations broken into separate lines with equation numbers on their own lines, numbers rendered clipped ('(1a)', '(2b)')",
+      "Equation 3a garbled: 'K = (CB, CAB, . . . , CA' / '·ᵏB, . . . )'; overbars missing on K, A, B in several equations",
+      "Overbars lost in inline math; 'x(t) ∈R ↦→y(t)', 'h(t) ∈RN'",
+      "Bold run-in paragraph heads and bold terms lost; citation links lost"
+    ]
+  },
+  "en_spec_rfc9562-uuid-p1": {
+    "reading_order": "A", "headings": "tie", "lists": "na", "tables": "A", "figures": "na",
+    "inline_formatting": "tie", "completeness": "B", "noise": "A", "overall": "A",
+    "issues_A": [
+      "Two Abstract paragraphs merged and then split at the wrong place ('...earlier versions of the OSF DCE' / 'specification have been incorporated...')",
+      "First two Status of This Memo paragraphs merged",
+      "URL misplaced after the period: 'obtained at . https://www.rfc-editor.org/info/rfc9562'",
+      "Links (9562, 4122, URL) not links; author affiliations not italic"
+    ],
+    "issues_B": [
+      "Metadata table flattened into runs of text ('Stream: RFC: Obsoletes: Category: ...' then 'Internet Engineering Task Force (IETF) 9562 4122 ...')",
+      "Metadata moved after the Abstract instead of at the top",
+      "Page footer kept: 'Davis, et al. Standards Track Page 1'",
+      "Links not links; affiliations not italic"
+    ]
+  },
+  "hi_wikipedia_mahatma-gandhi-p1": {
+    "reading_order": "tie", "headings": "B", "lists": "na", "tables": "B", "figures": "tie",
+    "inline_formatting": "B", "completeness": "B", "noise": "tie", "overall": "B",
+    "issues_A": [
+      "Devanagari broken throughout by spurious spaces: 'महात्मा गां धी', 'प्रमु ख राजनै तिक', 'ने ता थे', 'सू चक', 'सु भाष', 'रं गू न रे डियो'",
+      "Heading text broken too: 'महात्मा गां धी'",
+      "Infobox flattened with labels separated from values and out of order: 'जन्म', 'मौत', then both values; 'शिक्षा', 'पेशा', 'ऊंचाई' labels listed before their values",
+      "Label split across lines: 'राजनै' / 'तिक पार्टी ...'",
+      "Citation markers as plain '[25]' rather than superscripts; bold/italic lost"
+    ],
+    "issues_B": [
+      "Infobox flattened to paragraphs, some label/value pairs merged onto one line ('मौत की वजह ... आघात[8] जाति गुजराती[9]', 'शिक्षा ... पेशा राजनीतिज्ञ')",
+      "Infobox and photo placed before the Wikipedia logo and article title",
+      "Links and bold/italic ('महात्मा गांधी', 'सत्याग्रह', 'बापू') lost"
+    ]
+  }
+}
