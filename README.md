@@ -35,7 +35,8 @@ the text set right to left.</sub>
   scripts of Kashmiri, Manipuri and Sindhi.
 - A whole document, one page, or picked sections; figure text on request. A translating tab shimmers and fills with
   its progress.
-- Scanned pages are read with Bodhan's OCR on request. Headings get a second, context-aware pass.
+- Scanned pages can be read with Bodhan's OCR on request (rough on dense scans; see
+  [Known limitations](#known-limitations)). Headings get a second, context-aware pass.
 - A **glossary** pins how terms are translated, per language.
 
 **Revise with a prompt**
@@ -229,7 +230,7 @@ make test           # every test, including the one that launches Chrome
 | A damaged or truncated PDF | Refused: "this PDF is damaged and can't be read" |
 | A password-protected PDF | Refused: "this PDF is password-protected" (a permissions-only PDF opens normally) |
 | The same PDF uploaded twice | The existing document is returned (documents are identified by their content hash) |
-| A scanned page, an image-only PDF | Marked for OCR; Bodhan reads it on request, then it translates like any page |
+| A scanned page, an image-only PDF | Marked as scanned; Run OCR sends it to Bodhan, and the recognised text can be translated (layout is approximate) |
 | A page with no text | Opens; nothing to translate |
 | A language the app doesn't translate (e.g. French) | Opens, with a notice naming the language |
 | A file name with a path (`../../x.pdf`) | Only the name is kept |
@@ -252,6 +253,8 @@ These are covered by `backend/tests/test_robustness.py` and the ingest and rende
   row); in tightly set scripts superscripts can touch the line above.
 - **Text:** maths glyphs with no Unicode mapping are dropped from the text (the brackets of "GF(2⁸)"), though the
   formula is still drawn; chart labels stay in the original unless "Text in images" is chosen.
+- **Scans:** OCR'd pages are rough. A dense scan (the corpus's NACA report, with equations and small type) comes
+  out misplaced and hard to read after OCR. Text-layer PDFs are where Panna is strong.
 - **UI:** at about 1024 px wide the Translations panel opens over the page and covers the prompt box's Undo.
 - **Coverage:** 8 of the 22 languages were tested live end to end; the others were checked in mock mode.
 
