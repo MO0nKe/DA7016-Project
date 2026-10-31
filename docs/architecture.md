@@ -160,7 +160,9 @@ A page becomes an HTML fragment of absolutely positioned blocks.
 
 `make_clients(settings)` builds the Bodhan and OpenRouter clients. They share one request cache and one usage ledger.
 
-- **Cache:** every response under `cache/<host>/<model>/<sha256>.json`.
+- **Cache:** every response under `cache/<host>/<model>/<sha256>.json`. The files a document's requests and jobs
+  read or write are listed in `cache/_documents/<doc_id>.txt` (`cached_for`, set by the API layer), and deleting the
+  document deletes them, so an upload of the same PDF is translated afresh.
 - **Ledger:** a line in `usage.jsonl` for every call.
 - **Limits:** at most 4 Bodhan calls at a time, live calls paced, and retries with backoff on 429 and 5xx.
 

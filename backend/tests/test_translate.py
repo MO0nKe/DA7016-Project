@@ -170,6 +170,19 @@ def test_remove_a_language(api):
     assert api.delete(f"/api/documents/{doc_id}/translations/bho").status_code == 400
 
 
+def test_deleting_a_document_forgets_its_cached_answers(api):
+    cache = api.app.state.services.bodhan.cache
+    doc_id, other = upload(api, "sample_en.pdf")["id"], upload(api, "sample_hi.pdf")["id"]
+    for d, lang in ((doc_id, "ta"), (other, "bn")):
+        wait_for(api, api.post(f"/api/documents/{d}/translate", json={"langs": [lang]}).json()["id"])
+    listed = lambda d: {cache.root / rel for rel in cache._index(d).read_text().split()}  # noqa: E731
+    mine, theirs = listed(doc_id), listed(other)
+    assert mine and theirs and all(p.exists() for p in mine | theirs)  # the structure review's and Bodhan's answers
+    api.delete(f"/api/documents/{doc_id}")
+    assert not any(p.exists() for p in mine) and not cache._index(doc_id).exists()
+    assert all(p.exists() for p in theirs - mine)  # another document's answers stay
+
+
 def test_translate_highlighted_text(api):
     r = api.post("/api/translate-text", json={"text": "The library opens at nine.", "langs": ["hi", "ta"]})
     assert r.status_code == 200

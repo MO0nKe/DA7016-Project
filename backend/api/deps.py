@@ -5,7 +5,7 @@ from typing import Annotated
 
 from fastapi import Depends, HTTPException, Request
 
-from ..clients import BodhanClient, OpenRouterClient
+from ..clients import BodhanClient, OpenRouterClient, cached_for
 from ..core.config import Settings
 from ..core.jobs import JobManager
 from ..core.languages import LANGUAGES
@@ -35,8 +35,11 @@ class Services:
             raise HTTPException(404, f"no document {doc_id}") from None
 
 
-def services(request: Request) -> Services:
-    """The shared `Services`, for injection into route handlers."""
+async def services(request: Request) -> Services:
+    """The shared `Services`, for injection into route handlers. A request about a document marks the API answers
+    cached while serving it (and by any job it starts) as that document's. Async, so the mark reaches the handler."""
+    if doc_id := request.path_params.get("doc_id"):
+        cached_for.set(doc_id)
     return request.app.state.services
 
 

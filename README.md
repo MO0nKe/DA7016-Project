@@ -58,7 +58,8 @@ the text set right to left.</sub>
 
 **Built to be checked**
 - Runs entirely against a **local mock** of Bodhan and OpenRouter by default: no keys, no credits.
-- Every real API call is cached on disk (re-runs are free) and written to a usage ledger with its cost.
+- Every real API call is cached on disk (re-runs are free; deleting a document drops the answers it used) and
+  written to a usage ledger with its cost.
 - 160+ tests, a 19-document test corpus, and scripts that measure rendering and translation quality.
 
 ## Screenshots

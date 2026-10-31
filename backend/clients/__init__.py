@@ -2,7 +2,7 @@
 
 from .base import ApiError
 from .bodhan import BodhanClient, OcrResult, TextResult
-from .cache import Cache
+from .cache import Cache, cached_for
 from .ledger import Ledger
 from .openrouter import ChatResult, OpenRouterClient
 
@@ -24,6 +24,7 @@ __all__ = [
     "ApiError",
     "BodhanClient",
     "Cache",
+    "cached_for",
     "ChatResult",
     "Ledger",
     "OcrResult",

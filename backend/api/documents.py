@@ -8,7 +8,7 @@ from pathlib import PurePosixPath
 from fastapi import APIRouter, HTTPException, UploadFile
 from fastapi.responses import FileResponse
 
-from ..clients import ApiError
+from ..clients import ApiError, cached_for
 from ..core.models import Document, DocumentSummary
 from ..pipeline.ingest import UnreadablePDF, ingest_pdf, ocr_page
 from ..pipeline.outline import outline
@@ -33,6 +33,7 @@ async def upload(file: UploadFile, svc: ServicesDep):
         doc = ingest_pdf(data, name, svc.store)
     except UnreadablePDF as exc:
         raise HTTPException(400, str(exc)) from exc
+    cached_for.set(doc.id)  # the structure review's answers are this document's
     pages = [p.index for p in doc.pages if p.source == "text_layer" and p.blocks and p.review is None]
     if pages and not svc.jobs.running_for(doc.id):
         svc.jobs.start("structure", doc.id, [], lambda job: _review_structure_job(svc, doc.id, pages, job))
@@ -81,10 +82,11 @@ def get_document(doc_id: str, svc: ServicesDep):
 
 @router.delete("/{doc_id}")
 def delete_document(doc_id: str, svc: ServicesDep):
-    """Delete the document, its files and its place in the library."""
+    """Delete the document, its files, its place in the library and the cached API answers it used."""
     svc.document(doc_id)
     svc.store.delete(doc_id)
     svc.library.forget(doc_id)
+    svc.bodhan.cache.forget(doc_id)  # the same cache serves both clients
     return {"deleted": doc_id}
 
 

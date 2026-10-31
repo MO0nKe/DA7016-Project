@@ -87,6 +87,7 @@ documents/<id>/        one folder per document; <id> is a hash of the PDF, so re
 library.json           folders and which document is in each
 glossary.json          pinned term translations
 cache/<host>/<model>/  every API response, so no request is paid for twice
+cache/_documents/      which cached responses each document used: deleting a document deletes them
 usage.jsonl            one line per API call (cache hits too): `GET /api/usage` totals it
 eval/                  reports from scripts/evaluate.py
 ```
