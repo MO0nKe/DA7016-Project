@@ -4,12 +4,10 @@ import type { Doc, Language } from '../../api'
 export type View = 'original' | 'translated'
 
 /** The views of the pages: Original, and one per language (the tabs). A language has a view when the document has
- *  translations in it, or when it was added to this document (kept per document; a new document starts with the
- *  language last chosen anywhere). `shownLang` is the language view shown, or the last one shown while the
- *  Original is. */
+ *  translations in it, or when it was added to this document (kept per document, so a new document starts with
+ *  none). `shownLang` is the language view shown, or the last one shown while the Original is. */
 export function useLanguageViews(docId: string, doc: Doc | null, languages: Language[]) {
-  const [added, setAdded] = useState<string[]>(() => JSON.parse(localStorage.getItem(`langs:${docId}`)
-    ?? JSON.stringify((JSON.parse(localStorage.getItem('langs') ?? '["hi"]') as string[]).slice(0, 1))))
+  const [added, setAdded] = useState<string[]>(() => JSON.parse(localStorage.getItem(`langs:${docId}`) ?? '[]'))
   const [chosenView, setView] = useState<View>('original')
   const [chosenLang, setShownLang] = useState(added[0] ?? '')
   const langName = (code: string) => languages.find((l) => l.code === code)?.name ?? code
@@ -26,7 +24,7 @@ export function useLanguageViews(docId: string, doc: Doc | null, languages: Lang
   const show = (lang: string) => { setShownLang(lang); setView('translated') }
   return {
     view, setView, shownLang, setShownLang, show, shownLangs, translatedLangs, langName,
-    /** A new tab for this document, shown at once; also the default for the next new document. */
+    /** A new tab for this document, shown at once; also the language the Translate dialog offers next. */
     addLanguage: (lang: string) => {
       if (!added.includes(lang)) setAdded([...added, lang])
       localStorage.setItem('langs', JSON.stringify([lang]))

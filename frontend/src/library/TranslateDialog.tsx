@@ -28,7 +28,9 @@ export default function TranslateDialog({ doc, languages, onOpen, onClose }: {
     setError(null)
     try {
       await api.translate(doc.id, [lang])
-      // The studio translates into the same language from now on (it reads the saved choice).
+      // The document opens with this language's tab (useLanguageViews), and the dialog offers it again next time.
+      const tabs = JSON.parse(localStorage.getItem(`langs:${doc.id}`) ?? '[]') as string[]
+      localStorage.setItem(`langs:${doc.id}`, JSON.stringify([...new Set([...tabs, lang])]))
       const saved = JSON.parse(localStorage.getItem('langs') ?? '[]') as string[]
       localStorage.setItem('langs', JSON.stringify([lang, ...saved.filter((l) => l !== lang)].slice(0, 4)))
       onOpen(doc.id)
