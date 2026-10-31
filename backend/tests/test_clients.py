@@ -230,11 +230,17 @@ def test_settings_default_to_mock(tmp_path, monkeypatch):
     assert settings.bodhan_base_url.startswith("http://localhost")
     assert not settings.spends_credits
     assert settings.bodhan_keys["indic-translate"] == "abc"
+    # Against the mock, a missing key gets a stand-in (it accepts any), so trying the app needs no .env.
+    assert settings.bodhan_keys["indic-ocr"] and settings.openrouter_key
 
 
 def test_real_url_is_flagged(tmp_path, monkeypatch):
+    for var in ("BODHAN_TRANSLATE", "OPENROUTER", "OPENROUTER_BASE_URL"):
+        monkeypatch.delenv(var, raising=False)
     monkeypatch.setenv("BODHAN_BASE_URL", "https://api.bodhan.ai")
-    assert load_settings(tmp_path / "missing.env").spends_credits
+    settings = load_settings(tmp_path / "missing.env")
+    assert settings.spends_credits
+    assert settings.bodhan_keys["indic-translate"] == "" and settings.openrouter_key  # no stand-in for the real API
 
 
 async def test_per_minute_pacing_and_429_pause(mock_app, cache, ledger, monkeypatch):

@@ -12,7 +12,7 @@
 ## 2. Install
 
 ```bash
-git clone <this repository> && cd DA7016-Project
+git clone https://github.com/MO0nKe/DA7016-Project.git && cd DA7016-Project
 make install
 ```
 

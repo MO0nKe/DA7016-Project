@@ -119,7 +119,9 @@ that model; the studio draws pages from it.
 ## Quick start
 
 **Requirements:** [uv](https://docs.astral.sh/uv/) (it fetches Python 3.12 or newer), Node 22, Google Chrome (used for
-PDF printing in the scripts and one test), and `make`.
+PDF printing in the scripts and one test), and `make`. For pages drawn as intended, install the Noto fonts for the
+scripts you use (Ubuntu: `sudo apt install fonts-noto-core fonts-noto-extra fonts-liberation`); without them the
+browser substitutes its own. Ports 9000, 8000 and 5173 must be free.
 
 ```bash
 git clone https://github.com/MO0nKe/DA7016-Project.git && cd DA7016-Project
@@ -134,8 +136,9 @@ make backend        # the API on :8000
 make frontend       # the studio on http://localhost:5173
 ```
 
-Open <http://localhost:5173>, drop a PDF onto the library (try one from `documents/`), and pick a language. The top
-bar says **Mock**: translations are invented text in the right script, so the layout can be seen for free.
+No `.env` and no keys are needed for this. Open <http://localhost:5173>, drop a PDF onto the library (try one from
+`documents/`), and pick a language. The top bar says **Mock**: translations are invented text in the right script,
+so the layout can be seen for free.
 
 **Live mode** (real translations):
 

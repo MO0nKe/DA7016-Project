@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]  # the repo root (backend/core/config
 
 MOCK_BODHAN_URL = "http://localhost:9000"
 MOCK_OPENROUTER_URL = "http://localhost:9000/api/v1"
+MOCK_KEY = "mock-key"  # sent to the mock when no key is set: it accepts any
 REAL_BODHAN_URL = "https://api.bodhan.ai"
 REAL_OPENROUTER_URL = "https://openrouter.ai/api/v1"
 
@@ -50,16 +51,21 @@ def load_settings(env_file=ROOT / ".env"):
     openrouter_url = values.get("OPENROUTER_BASE_URL", MOCK_OPENROUTER_URL)
     # Mock and live runs keep separate documents, so mock translations never pass for real ones.
     live = not (is_local(bodhan_url) and is_local(openrouter_url))
+
+    def key(name, url):
+        """The key from the environment; against the mock, which accepts any, a stand-in so no .env is needed."""
+        return values.get(name, "") or (MOCK_KEY if is_local(url) else "")
+
     return Settings(
         bodhan_base_url=bodhan_url,
         openrouter_base_url=openrouter_url,
         openrouter_model=values.get("OPENROUTER_MODEL", "google/gemini-2.5-flash-lite"),
         bodhan_keys={
-            "indic-ocr": values.get("BODHAN_OCR", ""),
-            "indic-translate": values.get("BODHAN_TRANSLATE", ""),
-            "indic-transliterate": values.get("BODHAN_TRANSLITERATE", ""),
+            "indic-ocr": key("BODHAN_OCR", bodhan_url),
+            "indic-translate": key("BODHAN_TRANSLATE", bodhan_url),
+            "indic-transliterate": key("BODHAN_TRANSLITERATE", bodhan_url),
         },
-        openrouter_key=values.get("OPENROUTER", ""),
+        openrouter_key=key("OPENROUTER", openrouter_url),
         data_dir=ROOT / values.get("DATA_DIR", "data/live" if live else "data/mock"),
         # Live indic-translate allowed 15 requests, then 429s, when measured on 2026-10-24.
         bodhan_per_minute=None if is_local(bodhan_url) else int(values.get("BODHAN_PER_MINUTE", "15")),
